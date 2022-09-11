@@ -25,20 +25,22 @@ def timelapsefun(nnn,name,new_Data_arr):
 
     ## organize obs data
     rhos = np.array(rhos)
-    rhos_temp = []
-    for i in range(size):
+    rhos_temp = rhos[0]
+    for i in range(size-1):
+        rhos_temp = np.hstack((rhos_temp,rhos[i+1]))
 
-        rhos_temp = np.vstack((rhos_temp,rhos[i].reshape(-1,1)))
-    # rhos_temp = rhos[0].reshape(-1,1)
+        
+    rhos_temp = np.array(rhos_temp)
+    rhos_temp = rhos_temp.reshape((-1,1))
     rhos1 = np.log(rhos_temp)
 
 
 
     ## Mesh up and set up inital model
     ert1 = ert.ERTManager(dataert)
+
+    ## load mesh, change here for your own mesh
     mesh = pg.load('inv_mul1.bms')
-    #mesh = mesh.createH2()
-    # ert1.invert(mesh=mesh,lam=1)
     ert1.setMesh(mesh)
 
 
@@ -51,7 +53,7 @@ def timelapsefun(nnn,name,new_Data_arr):
         fobert.setMesh(mesh)
         fobert1.append(fobert)
 
-
+    ### this part is for the structure constrain
     Noid = np.load('marker.npy')
     
     temp2 = Noid.copy()
@@ -59,11 +61,9 @@ def timelapsefun(nnn,name,new_Data_arr):
     rhomodeltemp = []
     for i in range(size):
         rhomodel = np.median(rhos[i])*np.ones((mesh.cellCount(),1))
-        #rhomodel[temp2==3] = 100
-        #rhomodel[temp2==3] = 10000
         rhomodeltemp.append(rhomodel)
         
-    xr1 = np.log(np.reshape(np.array(rhomodeltemp),(len(temp2)*3,1)))
+    xr1 = np.log(np.reshape(np.array(rhomodeltemp),(len(temp2)*size,1)))
     
     del rhomodeltemp
     
