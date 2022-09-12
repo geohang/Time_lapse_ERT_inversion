@@ -9,5 +9,7 @@ The file directory:
                 - 2D problem
                 - 3D subsurface
                 - 3D column problem
+                
+                
 Note:
 It will be eaiser to directly see the codes in the Generalized file directory. The codes in Generalized file are fully commented. The other two file directories are raw codes I used for projects. The
