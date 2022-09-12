@@ -4,14 +4,15 @@ import os
 import gc
 import timelapsefun
 from joblib import Parallel, delayed
-
+import matplotlib
+matplotlib.use('TkAgg')
 
 para_flag = 0 # flag for parallel computing
 Nums_cpu = 3 # the number of used cpu
 Lambda = 10 # the regularization parameter for the model smooth parameter
 alpha = 2 # the regularization parameter for the time space smooth parameter
 decay_rate = 0.01 # the decay rate for the non-uniform time space
-
+widsize = 5 # the window size for window time lapse inversion
 
 ######################################################################################
 # The below part is for ERT file name organized
@@ -39,7 +40,7 @@ Date = new_Date_arr # the time array for corresponding ERT data file, in np.date
 
 
 def f(nnn):
-    timelapsefun.timelapsefun(nnn,name,Date)
+    timelapsefun.timelapsefun(nnn,name,Date,size=widsize)
     gc.collect()
     
 

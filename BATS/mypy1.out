@@ -1,0 +1,230 @@
+03/08/22 - 23:14:18 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+03/08/22 - 23:14:18 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+03/08/22 - 23:14:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+03/08/22 - 23:14:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+03/08/22 - 23:14:18 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+03/08/22 - 23:14:19 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpnffx5dhs.poly.
+  Segments are connected properly.
+03/08/22 - 23:26:36 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+03/08/22 - 23:26:36 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+03/08/22 - 23:26:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+03/08/22 - 23:26:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+03/08/22 - 23:26:36 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+03/08/22 - 23:26:38 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmphggiqzkr.poly.
+  Segments are connected properly.
+03/08/22 - 23:38:13 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+03/08/22 - 23:38:13 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+03/08/22 - 23:38:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+03/08/22 - 23:38:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+03/08/22 - 23:38:14 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+03/08/22 - 23:38:15 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmplms7efs5.poly.
+  Segments are connected properly.
+03/08/22 - 23:50:13 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+03/08/22 - 23:50:13 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+03/08/22 - 23:50:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+03/08/22 - 23:50:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+03/08/22 - 23:50:14 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+03/08/22 - 23:50:15 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp55jg497k.poly.
+  Segments are connected properly.
+04/08/22 - 00:02:00 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+04/08/22 - 00:02:00 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+04/08/22 - 00:02:00 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+04/08/22 - 00:02:00 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+04/08/22 - 00:02:00 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+04/08/22 - 00:02:01 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpubb3wccf.poly.
+  Segments are connected properly.
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[654.95201736]]
+ERT max error:21.43900115215311
+ERT mean error:0.35562946374789345
+ERT RMSE:2.151512966577387
+ERTphi_d:[[1218210.75228342]] ERTphi_m:[[2417375.61160307]]
+dPhi:[[0.99847317]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[401.24853075]]
+ERT max error:14.59490341340989
+ERT mean error:0.2968964308807497
+ERT RMSE:1.5005889409514324
+ERTphi_d:[[746322.26719384]] ERTphi_m:[[306074.46822004]]
+dPhi:[[0.63228515]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[387.37909328]]
+ERT max error:18.315128119269943
+ERT mean error:0.2720504866017916
+ERT RMSE:1.8700226857837081
+ERTphi_d:[[720525.11349645]] ERTphi_m:[[242207.40350735]]
+dPhi:[[0.03580327]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[44.48245693]]
+ERT max error:18.63335274516828
+ERT mean error:0.2716304344497791
+ERT RMSE:1.8986499879172192
+ERTphi_d:[[82737.3698814]] ERTphi_m:[[241407.55831562]]
+dPhi:[[7.70858132]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[44.48247336]]
+ERT max error:18.63336124009147
+ERT mean error:0.2716304743980341
+ERT RMSE:1.8986509821922986
+ERTphi_d:[[82737.40044767]] ERTphi_m:[[241407.28696821]]
+dPhi:[[3.69437179e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[657.52723007]]
+ERT max error:22.251227805059337
+ERT mean error:0.35619022548696344
+ERT RMSE:2.189085238209992
+ERTphi_d:[[1223658.17516317]] ERTphi_m:[[2422269.95586738]]
+dPhi:[[0.99847915]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[403.001504]]
+ERT max error:15.351484057657144
+ERT mean error:0.2976965658461218
+ERT RMSE:1.5327162772012208
+ERTphi_d:[[749985.79894975]] ERTphi_m:[[307248.19330677]]
+dPhi:[[0.63157513]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[388.79101028]]
+ERT max error:19.08569552260395
+ERT mean error:0.271788380115064
+ERT RMSE:1.9065547236815472
+ERTphi_d:[[723540.07012417]] ERTphi_m:[[243866.29323989]]
+dPhi:[[0.03655047]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[44.27759821]]
+ERT max error:21.576624681227912
+ERT mean error:0.2664869245701442
+ERT RMSE:2.1082726393208935
+ERTphi_d:[[82400.61027577]] ERTphi_m:[[239858.11942516]]
+dPhi:[[7.78076106]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[44.27761826]]
+ERT max error:21.57663132169023
+ERT mean error:0.266486975129688
+ERT RMSE:2.108275119207012
+ERTphi_d:[[82400.64759048]] ERTphi_m:[[239857.86220596]]
+dPhi:[[4.52844876e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[658.15359914]]
+ERT max error:23.7552552086074
+ERT mean error:0.35678357279435324
+ERT RMSE:2.229542848747619
+ERTphi_d:[[1225482.00160091]] ERTphi_m:[[2428459.6146907]]
+dPhi:[[0.9984806]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[403.34706877]]
+ERT max error:16.30604212089025
+ERT mean error:0.29731578966486966
+ERT RMSE:1.5580713949110963
+ERTphi_d:[[751032.24204852]] ERTphi_m:[[307458.31483537]]
+dPhi:[[0.63173021]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[389.15525616]]
+ERT max error:20.36924168192026
+ERT mean error:0.2731075047988657
+ERT RMSE:1.941980174854937
+ERTphi_d:[[724607.08697661]] ERTphi_m:[[243939.55243813]]
+dPhi:[[0.03646825]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[44.49799682]]
+ERT max error:20.72476621218684
+ERT mean error:0.271943452719859
+ERT RMSE:1.9718489156032684
+ERTphi_d:[[82855.27007046]] ERTphi_m:[[243112.00015284]]
+dPhi:[[7.74545562]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[44.49801892]]
+ERT max error:20.724775993742114
+ERT mean error:0.271943478259169
+ERT RMSE:1.9718500284997813
+ERTphi_d:[[82855.31123743]] ERTphi_m:[[243111.73024217]]
+dPhi:[[4.96853706e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[657.78104956]]
+ERT max error:25.651690064099913
+ERT mean error:0.3580111829593372
+ERT RMSE:2.332672235916377
+ERTphi_d:[[1224788.31428287]] ERTphi_m:[[2427974.86133044]]
+dPhi:[[0.99847974]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[402.97255671]]
+ERT max error:20.31300541691982
+ERT mean error:0.29679089990481633
+ERT RMSE:1.6452961777102377
+ERTphi_d:[[750334.90058954]] ERTphi_m:[[307534.4191921]]
+dPhi:[[0.6323222]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[388.40816901]]
+ERT max error:22.10300316673414
+ERT mean error:0.2724784760244576
+ERT RMSE:2.0353735582205803
+ERTphi_d:[[723216.01070525]] ERTphi_m:[[244693.7690696]]
+dPhi:[[0.03749763]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[44.28593806]]
+ERT max error:24.840625053910507
+ERT mean error:0.2669314846365139
+ERT RMSE:2.2457745895753396
+ERTphi_d:[[82460.41667105]] ERTphi_m:[[240835.69160809]]
+dPhi:[[7.77046273]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[44.28595887]]
+ERT max error:24.840631952425515
+ERT mean error:0.26693153085183347
+ERT RMSE:2.245776975908833
+ERTphi_d:[[82460.45540798]] ERTphi_m:[[240835.41248687]]
+dPhi:[[4.69763653e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[658.67040014]]
+ERT max error:27.58603272509127
+ERT mean error:0.35820281739005577
+ERT RMSE:2.3847496024928043
+ERTphi_d:[[1226444.285054]] ERTphi_m:[[2438347.79025296]]
+dPhi:[[0.99848179]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[406.43735009]]
+ERT max error:19.105196163104583
+ERT mean error:0.2985136339813619
+ERT RMSE:1.67469698690869
+ERTphi_d:[[756786.34587334]] ERTphi_m:[[307701.37643507]]
+dPhi:[[0.62059515]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[389.64989736]]
+ERT max error:23.18255603795693
+ERT mean error:0.2751937468790358
+ERT RMSE:2.033480253512567
+ERTphi_d:[[725528.10889195]] ERTphi_m:[[248066.68824322]]
+dPhi:[[0.04308343]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[44.25927339]]
+ERT max error:26.245329523272037
+ERT mean error:0.2674730663930007
+ERT RMSE:2.275758342480228
+ERTphi_d:[[82410.76706041]] ERTphi_m:[[243247.44371717]]
+dPhi:[[7.8038024]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[44.25927736]]
+ERT max error:26.245330774851656
+ERT mean error:0.26747303438748726
+ERT RMSE:2.2757583666891827
+ERTphi_d:[[82410.77443889]] ERTphi_m:[[243247.40305287]]
+dPhi:[[8.95328757e-08]]

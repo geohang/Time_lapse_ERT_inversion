@@ -6,12 +6,39 @@ from scipy.sparse.linalg import lsqr
 import pygimli as pg
 import gc
 
+###### For Jocabian matrix organization
+def Jac(fobert1, mr, size):
+    ttt = np.reshape(mr,(-1,size),order='F')
+    obs = []
 
+    for i in range(size):
+        dr, Jr = inv2.ertforandjac2(fobert1[i], ttt[:,i])
+        obs.append(dr)
+        if i ==0:
+            JJ = Jr
+        else:
+            JJ = block_diag(JJ,Jr)
+
+    obs = np.vstack((obs[0].reshape(-1,1),obs[1].reshape(-1,1),obs[2].reshape(-1,1)))
+    return obs, JJ
+
+###### For Forward modeling response organization
+def forward(fobert1, mr, size):
+    ttt = np.reshape(mr,(-1,size),order='F')
+    obs = []
+
+    for i in range(size):
+
+        dr = inv2.ertforward2(fobert1[i], ttt[:,i])
+        obs.append(dr)
+
+    obs = np.vstack((obs[0].reshape(-1,1),obs[1].reshape(-1,1),obs[2].reshape(-1,1)))
+    return obs
 
 #### This function is mainly for the window time lapse ERT inversion
 
-def timelapsefun(nnn,name,new_Data_arr):
-    size = 3
+def timelapsefun(nnn,name,new_Data_arr,size):
+    #size = 3
 
     rhos = []
     dataert1 = []
@@ -71,27 +98,23 @@ def timelapsefun(nnn,name,new_Data_arr):
     mr_R = mr
     mr_R = mr_R.reshape(mr_R.shape[0],1)        
         
-    from scipy.sparse import diags
+
     from scipy.sparse import coo_matrix#, block_diag
     #---------------------data weight------------------------------------#
     dataerr = np.array(dataerr)
     Delta_rhoa_rhoa = np.hstack((dataerr[0],dataerr[1],dataerr[2]))
-    #Delta_rhoa_rhoa = (0.10 + 0)*np.ones(rhos1[:,0].shape)
     Wdert = np.diag(1.0 / np.log(Delta_rhoa_rhoa + 1))
-
     Wd = Wdert
-    #Wd = coo_matrix(Wd)
 
     # ------------------------model weighting matrix--------------------- #
     rm = fobert.regionManager()
     Ctmp = pg.matrix.RSparseMapMatrix()
 
-
+    # set up the regularization type here
     rm.setConstraintType(1)
     rm.fillConstraints(Ctmp)
     Wm_r = pg.utils.sparseMatrix2coo(Ctmp)
     Wm_r = Wm_r.todense()
-    #Wm_r = Wm_r.todense()
 
     cw = rm.constraintWeights().array()
     Wm = Wm_r.copy()
@@ -100,91 +123,46 @@ def timelapsefun(nnn,name,new_Data_arr):
     
     temp = Wm.dot(Noid)
     ttt = np.array(temp).reshape((-1,))
-    
-    cw[abs(ttt) == 2] = 1 - np.exp(-0.1*nnn)
+
     cw[abs(ttt) == 1] = 1 - np.exp(-0.1*nnn)
       
     Wm = np.diag(cw).dot(Wm_r)
     del Wm_r, Wdert
     gc.collect()
-    #Wm = coo_matrix(Wm)
 
-    #Wm = block_diag((Wm,Wm,Wm))
     Wm = block_diag(Wm,Wm,Wm)
 
     # ------------------------time space weighting matrix--------------------- #
-    Wt = np.zeros((int(len(mr)*2/3),len(mr)))
-    # Wt = np.diagflat(np.float16(np.ones(len(mr))))
-    np.fill_diagonal(Wt[:,int(len(mr)*1/3):], -1) ## adjanct time model paramters
+    Wt = np.zeros((int(len(mr)*(size-1)/size),len(mr)))
+
+    np.fill_diagonal(Wt[:,int(len(mr)*1/size):], -1) ## adjanct time model paramters
     np.fill_diagonal(Wt, 1)
 
     NNoid = np.vstack((Noid.reshape(-1,1),Noid.reshape(-1,1),Noid.reshape(-1,1)))
-    #Wt = coo_matrix(Wt)
-
-    def Jac(fobert1, mr, size):
-        ttt = np.reshape(mr,(-1,size),order='F')
-        obs = []
-
-        for i in range(size):
-            dr, Jr = inv2.ertforandjac2(fobert1[i], ttt[:,i])
-            obs.append(dr)
-            #Jr = Jr
-            if i ==0:
-                JJ = Jr
-            else:
-                #JJ = block_diag((JJ,Jr))
-                JJ = block_diag(JJ,Jr)
-        #obs = np.array(obs).T
-        #JJ = coo_matrix(JJ)
-        obs = np.vstack((obs[0].reshape(-1,1),obs[1].reshape(-1,1),obs[2].reshape(-1,1)))
-        return obs, JJ
-
-    def forward(fobert1, mr, size):
-        ttt = np.reshape(mr,(-1,size),order='F')
-        obs = []
-
-        for i in range(size):
-
-            dr = inv2.ertforward2(fobert1[i], ttt[:,i])
-            obs.append(dr)
 
 
-        #obs = np.array(obs).T
-        obs = np.vstack((obs[0].reshape(-1,1),obs[1].reshape(-1,1),obs[2].reshape(-1,1)))
-        return obs
+
 
 
     L_mr = 5#5;
     alpha = 1 #5
     mr = mr.reshape(mr.shape[0],1)
-    delta_mr = (mr-mr_R)
     chi2_ert = 1
-    d_mr1 = np.zeros(mr.shape[0])
-    #TT = [3,16,6,20,24,3*24,3*24,24]
-
-    time_d = new_Data_arr[nnn+1] - new_Data_arr[nnn]
-    t1 = time_d.data[0]/60
-
-    time_d = new_Data_arr[nnn+2] - new_Data_arr[nnn+1]
-    t2 = time_d.data[0]/60
-    if t1>24:
-        t1 = 24
-
-    
-    if t2>24:
-        t2 = 24
 
 
-        
-        
-        
-    coeff = np.diagflat(np.hstack((np.ones(int(len(mr)*1/size))*alpha*np.exp(-0.01*t1),
-                  np.ones(int(len(mr)*1/size))*alpha*np.exp(-0.01*t2))))
+
+    tdiff = np.diff(new_Data_arr[nnn:nnn+size]) # the time difference between ERT data
+
+    w_temp = np.ones(int(len(mr)*1/size))*alpha*np.exp(-0.01*tdiff[0].data[0]/60)
+    for i in range(size-2):
+        w_temp = np.hstack((w_temp,np.ones(int(len(mr)*1/size))*alpha*np.exp(-0.01*tdiff[i+1].data[0]/60)))
+
+
+    coeff = w_temp
+
 
     Wt = coeff.dot(Wt)
     WWd = Wd.T.dot(Wd)
-
-    #WWm = (Wm.multiply(L_mr)).T.dot(Wm.multiply(L_mr))
 
     WWm = (L_mr*Wm).T.dot(L_mr*Wm)
     WWt = Wt.T.dot(Wt)
@@ -207,9 +185,6 @@ def timelapsefun(nnn,name,new_Data_arr):
 
 
         print('ERT chi2'+str(chi2_ert))
-        print('ERT max error:'+str(np.max(np.abs(dataerror_ert/rhos1))))
-        print('ERT mean error:'+str(np.mean(np.abs(dataerror_ert/rhos1))))
-        print('ERTphi_m:'+str(fmert))
         print('dPhi:'+str(dPhi))
 
 
@@ -224,14 +199,14 @@ def timelapsefun(nnn,name,new_Data_arr):
         gc_r = gc_r.reshape((-1,))
         #sN11_R = sparse.csr_matrix(N11_R)
         sN11_R = N11_R
-        gc_r1 = gc_r#Jr.T.dot(Wd.T.dot(Wd)).dot(dr-rhos1) + (Wm.multiply(L_mr)).T.dot(Wm.multiply(L_mr)).dot(mr) + alpha*Wt.T.dot(Wt).dot(mr)
+        gc_r1 = gc_r
         
         del Jr
         gc.collect()
         d_mr, istop, itn, normr = lsqr(sN11_R, -gc_r, damp=0.0, atol=1e-08, btol=1e-08, conlim=100000000.0,
                                        iter_lim=150, show=False, calc_var=False, x0=None)[:4]
-        #d_mr, istop, itn, normr = lsmr(sN11_R, -gc_r, damp=0.0, atol=1e-06, btol=1e-06, conlim=100000000.0, maxiter=None, show=False,  x0=d_mr1)[:4]
-        d_mr1 = d_mr.copy()
+
+        #### line search
         d_mr = d_mr.reshape(d_mr.shape[0],1)
         mu_LS = 1.0
         iarm = 1
@@ -268,28 +243,25 @@ def timelapsefun(nnn,name,new_Data_arr):
         mr[mr < np.log(0.0001)] = np.log(0.0001)
 
 
-        delta_mr = (mr-mr_R)
-
-
+    ################## do the interpolation and save the results################
     ttt = np.reshape(mr,(-1,size),order='F')
 
-
-    mesh2 = pg.load('inv_mulbnd1.bms')
+    mesh2 = pg.load('inv_mulbnd1.bms') # interpolation mesh
     import meshop
-    if nnn ==0:
+    if nnn == 0:
+        for i in range(int(size/2)):
+            model2 = meshop.linear_interpolation(mesh, np.array(ttt[:,i]), mesh2)
+            mesh2['res'] = np.exp(model2)
+            mesh2.exportVTK(name[nnn][:-4])
 
-        model2 = meshop.linear_interpolation(mesh, np.array(ttt[:,0]), mesh2)
-        mesh2['res'] = np.exp(model2)
-        mesh2.exportVTK(name[nnn][:-4])
-
-    elif nnn == len(name) - 1:
-
-        model2 = meshop.linear_interpolation(mesh, np.array(ttt[:,2]), mesh2)
-        mesh2['res'] = np.exp(model2)
-        mesh2.exportVTK(name[nnn+2][:-4])
+    elif nnn == len(name) - int(size/2):
+        for i in range(int(size/2)):
+            model2 = meshop.linear_interpolation(mesh, np.array(ttt[:,size - 1 - i]), mesh2)
+            mesh2['res'] = np.exp(model2)
+            mesh2.exportVTK(name[nnn+2][:-4])
 
 
-    model2 = meshop.linear_interpolation(mesh, np.array(ttt[:,1]), mesh2)
+    model2 = meshop.linear_interpolation(mesh, np.array(ttt[:,int(size/2)]), mesh2)
     mesh2['res'] = np.exp(model2)
     mesh2.exportVTK(name[1+nnn][:-4])
 

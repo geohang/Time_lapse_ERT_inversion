@@ -1,0 +1,3173 @@
+/global/home/users/hchen8/BAT2/timelapseinvfun.py:49: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  rhos = np.array(rhos)
+17/08/22 - 13:33:29 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 13:33:29 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 13:33:30 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 13:33:30 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 13:33:31 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 13:33:31 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 13:33:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 13:33:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 13:33:31 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 13:33:32 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+/global/home/users/hchen8/BAT2/timelapseinvfun.py:105: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  dataerr = np.array(dataerr)
+17/08/22 - 13:34:22 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 13:34:22 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 13:34:22 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 13:34:24 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 13:34:38 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 13:34:38 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 13:34:38 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 13:34:39 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpid294zct.poly.
+  Segments are connected properly.
+17/08/22 - 15:04:16 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 15:04:16 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 15:04:17 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 15:04:17 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 15:04:18 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 15:04:18 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 15:04:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 15:04:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 15:04:18 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 15:04:20 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 15:05:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 15:05:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 15:05:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 15:05:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 15:05:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 15:05:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 15:05:41 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 15:05:42 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpy1f27pkw.poly.
+  Segments are connected properly.
+17/08/22 - 16:57:09 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 16:57:09 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 16:57:10 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 16:57:10 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 16:57:11 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 16:57:11 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 16:57:12 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 16:57:12 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 16:57:12 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 16:57:13 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 16:58:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 16:58:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 16:58:14 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 16:58:16 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 16:58:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 16:58:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 16:58:31 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 16:58:32 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp4ow4wxu2.poly.
+  Segments are connected properly.
+17/08/22 - 18:09:41 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 18:09:41 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 18:09:42 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 18:09:42 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 18:09:43 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 18:09:43 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 18:09:44 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 18:09:44 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 18:09:44 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 18:09:45 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 18:10:49 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 18:10:49 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 18:10:49 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 18:10:50 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 18:11:08 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 18:11:08 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 18:11:08 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 18:11:09 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpt72g5nt7.poly.
+  Segments are connected properly.
+17/08/22 - 19:24:25 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 19:24:25 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 19:24:26 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 19:24:26 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 19:24:27 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 19:24:27 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 19:24:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 19:24:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 19:24:27 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 19:24:29 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 19:25:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 19:25:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 19:25:30 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 19:25:31 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 19:25:45 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 19:25:45 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 19:25:45 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 19:25:46 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpgcqabg_u.poly.
+  Segments are connected properly.
+17/08/22 - 21:13:24 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 21:13:24 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 21:13:25 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 21:13:25 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 21:13:26 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 21:13:26 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 21:13:26 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 21:13:26 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 21:13:26 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 21:13:28 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 21:14:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 21:14:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 21:14:31 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 21:14:33 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 21:14:48 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 21:14:48 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 21:14:48 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 21:14:49 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpy1h65hdl.poly.
+  Segments are connected properly.
+17/08/22 - 22:27:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 22:27:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 22:27:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 22:27:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 22:27:51 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 22:27:51 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 22:27:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 22:27:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 22:27:51 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 22:27:52 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 22:28:55 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 22:28:55 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 22:28:55 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 22:28:56 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 22:29:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 22:29:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 22:29:11 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 22:29:12 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpa7kf0yp4.poly.
+  Segments are connected properly.
+17/08/22 - 23:49:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 23:49:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 23:49:35 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 23:49:35 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 23:49:36 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+17/08/22 - 23:49:36 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+17/08/22 - 23:49:37 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 23:49:37 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 23:49:37 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 23:49:38 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 23:50:33 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 23:50:33 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 23:50:33 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 23:50:35 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+17/08/22 - 23:50:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+17/08/22 - 23:50:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+17/08/22 - 23:50:50 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+17/08/22 - 23:50:51 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmputlzj6x4.poly.
+  Segments are connected properly.
+18/08/22 - 01:02:08 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 01:02:08 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 01:02:09 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 01:02:09 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 01:02:10 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 01:02:10 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 01:02:10 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 01:02:10 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 01:02:10 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 01:02:11 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 01:03:15 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 01:03:15 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 01:03:15 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 01:03:16 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 01:03:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 01:03:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 01:03:30 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 01:03:31 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp4wpjq5x_.poly.
+  Segments are connected properly.
+18/08/22 - 02:00:11 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 02:00:11 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 02:00:12 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 02:00:12 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 02:00:13 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 02:00:13 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 02:00:13 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 02:00:13 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 02:00:13 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 02:00:15 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 02:01:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 02:01:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 02:01:09 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 02:01:10 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 02:01:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 02:01:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 02:01:27 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 02:01:28 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpr875k6qo.poly.
+  Segments are connected properly.
+18/08/22 - 03:13:25 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 03:13:25 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 03:13:26 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 03:13:26 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 03:13:27 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 03:13:27 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 03:13:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 03:13:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 03:13:27 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 03:13:28 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 03:14:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 03:14:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 03:14:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 03:14:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 03:14:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 03:14:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 03:14:40 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 03:14:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp5vfvoxp_.poly.
+  Segments are connected properly.
+18/08/22 - 04:27:37 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 04:27:37 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 04:27:38 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 04:27:38 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 04:27:39 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 04:27:39 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 04:27:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 04:27:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 04:27:39 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 04:27:40 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 04:28:37 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 04:28:37 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 04:28:37 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 04:28:38 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 04:28:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 04:28:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 04:28:53 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 04:28:54 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp7ybaohmx.poly.
+  Segments are connected properly.
+18/08/22 - 05:27:23 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 05:27:23 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 05:27:24 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 05:27:24 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 05:27:24 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 05:27:24 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 05:27:25 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 05:27:25 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 05:27:25 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 05:27:26 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 05:28:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 05:28:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 05:28:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 05:28:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 05:28:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 05:28:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 05:28:39 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 05:28:40 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp8k3yx2h8.poly.
+  Segments are connected properly.
+18/08/22 - 06:33:53 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 06:33:53 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 06:33:54 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 06:33:54 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 06:33:55 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 06:33:55 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 06:33:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 06:33:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 06:33:56 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 06:33:57 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 06:34:59 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 06:34:59 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 06:34:59 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 06:35:00 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 06:35:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 06:35:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 06:35:17 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 06:35:18 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpxu_xfh21.poly.
+  Segments are connected properly.
+18/08/22 - 07:49:25 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 07:49:25 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 07:49:26 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 07:49:26 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 07:49:27 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 07:49:27 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 07:49:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 07:49:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 07:49:27 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 07:49:28 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 07:50:19 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 07:50:19 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 07:50:19 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 07:50:21 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 07:50:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 07:50:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 07:50:40 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 07:50:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpw595me_s.poly.
+  Segments are connected properly.
+18/08/22 - 08:49:21 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 08:49:21 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 08:49:22 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 08:49:22 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 08:49:23 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 08:49:23 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 08:49:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 08:49:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 08:49:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 08:49:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 08:50:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 08:50:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 08:50:17 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 08:50:18 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 08:50:33 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 08:50:33 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 08:50:33 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 08:50:34 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp7h65w4s7.poly.
+  Segments are connected properly.
+18/08/22 - 10:01:38 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 10:01:38 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 10:01:39 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 10:01:39 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 10:01:40 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 10:01:40 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 10:01:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 10:01:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 10:01:40 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 10:01:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 10:02:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 10:02:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 10:02:36 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 10:02:37 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 10:02:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 10:02:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 10:02:53 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 10:02:54 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpson7jl7w.poly.
+  Segments are connected properly.
+18/08/22 - 11:01:55 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 11:01:55 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 11:01:56 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 11:01:56 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 11:01:57 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 11:01:57 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 11:01:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 11:01:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 11:01:57 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 11:01:58 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 11:03:02 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 11:03:02 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 11:03:02 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 11:03:03 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 11:03:19 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 11:03:19 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 11:03:19 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 11:03:20 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp5bn50685.poly.
+  Segments are connected properly.
+18/08/22 - 12:33:54 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 12:33:54 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 12:33:56 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 12:33:56 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 12:33:57 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 12:33:57 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 12:33:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 12:33:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 12:33:57 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 12:33:58 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 12:35:01 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 12:35:01 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 12:35:01 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 12:35:02 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 12:35:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 12:35:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 12:35:18 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 12:35:19 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpqgfcelq1.poly.
+  Segments are connected properly.
+18/08/22 - 13:46:48 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 13:46:48 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 13:46:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 13:46:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 13:46:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 13:46:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 13:46:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 13:46:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 13:46:50 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 13:46:51 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 13:47:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 13:47:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 13:47:51 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 13:47:53 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 13:48:07 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 13:48:07 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 13:48:07 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 13:48:08 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpcukud8hz.poly.
+  Segments are connected properly.
+18/08/22 - 15:00:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 15:00:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 15:00:35 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 15:00:35 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 15:00:36 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 15:00:36 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 15:00:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 15:00:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 15:00:36 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 15:00:37 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 15:01:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 15:01:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 15:01:41 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 15:01:42 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 15:01:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 15:01:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 15:01:57 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 15:01:59 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpc2ubhms5.poly.
+  Segments are connected properly.
+18/08/22 - 16:33:57 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 16:33:57 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 16:33:58 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 16:33:58 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 16:33:59 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 16:33:59 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 16:33:59 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 16:33:59 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 16:33:59 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 16:34:00 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 16:34:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 16:34:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 16:34:53 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 16:34:54 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 16:35:07 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 16:35:07 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 16:35:07 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 16:35:09 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpkyxinit1.poly.
+  Segments are connected properly.
+18/08/22 - 18:18:20 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 18:18:20 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 18:18:21 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 18:18:21 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 18:18:22 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 18:18:22 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 18:18:22 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 18:18:22 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 18:18:22 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 18:18:23 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 18:19:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 18:19:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 18:19:17 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 18:19:18 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 18:19:37 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 18:19:37 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 18:19:37 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 18:19:39 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp192aak44.poly.
+  Segments are connected properly.
+18/08/22 - 20:21:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 20:21:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 20:21:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 20:21:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 20:21:51 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 20:21:51 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 20:21:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 20:21:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 20:21:51 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 20:21:52 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 20:22:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 20:22:53 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 20:22:53 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 20:22:54 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 20:23:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 20:23:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 20:23:09 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 20:23:10 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpkremgnhy.poly.
+  Segments are connected properly.
+18/08/22 - 21:34:32 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 21:34:32 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 21:34:33 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 21:34:33 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 21:34:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 21:34:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 21:34:34 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 21:34:34 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 21:34:34 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 21:34:35 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 21:35:34 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 21:35:34 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 21:35:34 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 21:35:35 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 21:35:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 21:35:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 21:35:50 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 21:35:51 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[539.47198629]]
+ERT max error:49.69125753766682
+ERT mean error:0.8581362267369335
+ERTphi_d:[[3040464.11471575]]  ERTphi_m:[[3845659.07205409]]  ERTphi_t:[[9.67104867]]
+dPhi:[[0.99814634]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[300.09017919]]
+ERT max error:31.039290947567693
+ERT mean error:0.6030627344832005
+ERTphi_d:[[1691308.24994058]]  ERTphi_m:[[649378.23809905]]  ERTphi_t:[[95.81793223]]
+dPhi:[[0.79769957]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[292.32883467]]
+ERT max error:36.1971514415673
+ERT mean error:0.6318904844777279
+ERTphi_d:[[1647565.31219642]]  ERTphi_m:[[614730.02505252]]  ERTphi_t:[[79.72870859]]
+dPhi:[[0.02655005]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[286.78524703]]
+ERT max error:40.025016819477955
+ERT mean error:0.6462167970944578
+ERTphi_d:[[1616321.65225901]]  ERTphi_m:[[624805.9395295]]  ERTphi_t:[[98.50850414]]
+dPhi:[[0.0193301]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[280.60884356]]
+ERT max error:43.94085657322379
+ERT mean error:0.6762595771531685
+ERTphi_d:[[1581511.44232044]]  ERTphi_m:[[605535.72750327]]  ERTphi_t:[[114.78836767]]
+dPhi:[[0.02201072]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[276.57864243]]
+ERT max error:43.9963310324813
+ERT mean error:0.6702669121849666
+ERTphi_d:[[1558797.22874196]]  ERTphi_m:[[601096.00296563]]  ERTphi_t:[[109.98382021]]
+dPhi:[[0.01457163]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[275.97409545]]
+ERT max error:38.023496990577364
+ERT mean error:0.6619662891388276
+ERTphi_d:[[1555390.00197979]]  ERTphi_m:[[617449.18422066]]  ERTphi_t:[[305.67406671]]
+dPhi:[[0.00219059]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[544.25746061]]
+ERT max error:44.60080225586922
+ERT mean error:0.8170328101402601
+ERTphi_d:[[3072333.36512932]]  ERTphi_m:[[3867125.81717936]]  ERTphi_t:[[77.86726306]]
+dPhi:[[0.99816263]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[302.2169715]]
+ERT max error:31.047892954251452
+ERT mean error:0.5731005505474829
+ERTphi_d:[[1706014.80414477]]  ERTphi_m:[[655174.61934994]]  ERTphi_t:[[43.69433327]]
+dPhi:[[0.80088318]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[293.59836689]]
+ERT max error:33.25730143392649
+ERT mean error:0.6031117486246197
+ERTphi_d:[[1657362.78110971]]  ERTphi_m:[[615091.17662498]]  ERTphi_t:[[45.34586734]]
+dPhi:[[0.02935508]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[285.70189671]]
+ERT max error:35.9893991543762
+ERT mean error:0.5974954350964482
+ERTphi_d:[[1612787.20693043]]  ERTphi_m:[[628034.99679425]]  ERTphi_t:[[65.09019059]]
+dPhi:[[0.02763884]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[281.47807302]]
+ERT max error:37.13148291532268
+ERT mean error:0.6070801788281045
+ERTphi_d:[[1588943.72219205]]  ERTphi_m:[[611904.06103319]]  ERTphi_t:[[102.59506167]]
+dPhi:[[0.01500587]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[276.81993136]]
+ERT max error:38.06284119836239
+ERT mean error:0.6083844108769341
+ERTphi_d:[[1562648.51253493]]  ERTphi_m:[[603926.77773643]]  ERTphi_t:[[89.21328107]]
+dPhi:[[0.01682733]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[272.83272119]]
+ERT max error:39.678968984559006
+ERT mean error:0.6030482681388916
+ERTphi_d:[[1540140.71109556]]  ERTphi_m:[[604998.88937409]]  ERTphi_t:[[96.54021711]]
+dPhi:[[0.01461412]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:7---------------------------
+ERT chi2[[272.83276414]]
+ERT max error:39.678975425769124
+ERT mean error:0.6030486565781233
+ERTphi_d:[[1540140.95355092]]  ERTphi_m:[[604998.8696413]]  ERTphi_t:[[96.54002724]]
+dPhi:[[1.57424138e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[550.61884355]]
+ERT max error:30.127224670364647
+ERT mean error:0.7749747389449607
+ERTphi_d:[[3117603.89215817]]  ERTphi_m:[[3897132.94536104]]  ERTphi_t:[[116.5253266]]
+dPhi:[[0.99818386]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[305.39255733]]
+ERT max error:23.524910809357632
+ERT mean error:0.5447841196098445
+ERTphi_d:[[1729132.65961453]]  ERTphi_m:[[665790.15150243]]  ERTphi_t:[[160.38050124]]
+dPhi:[[0.80298711]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[296.53941676]]
+ERT max error:25.110362068358935
+ERT mean error:0.5672624456219227
+ERTphi_d:[[1679006.17767603]]  ERTphi_m:[[626555.69726913]]  ERTphi_t:[[156.67591526]]
+dPhi:[[0.02985485]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[290.01910223]]
+ERT max error:26.878258590482478
+ERT mean error:0.5676003803620013
+ERTphi_d:[[1642088.15680368]]  ERTphi_m:[[649134.04821986]]  ERTphi_t:[[197.10502266]]
+dPhi:[[0.02248236]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[286.71660569]]
+ERT max error:28.229418847680574
+ERT mean error:0.5671300797179906
+ERTphi_d:[[1623389.4214403]]  ERTphi_m:[[620671.38629293]]  ERTphi_t:[[202.97068896]]
+dPhi:[[0.01151833]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[285.29956338]]
+ERT max error:26.811648901724013
+ERT mean error:0.5604667247049528
+ERTphi_d:[[1615366.12785578]]  ERTphi_m:[[633626.90688729]]  ERTphi_t:[[328.70081736]]
+dPhi:[[0.00496686]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[556.31943636]]
+ERT max error:25.91487967132383
+ERT mean error:0.7532416706413944
+ERTphi_d:[[3160450.71798588]]  ERTphi_m:[[3922693.95162519]]  ERTphi_t:[[45.38769648]]
+dPhi:[[0.99820247]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[308.58575001]]
+ERT max error:20.899985931459234
+ERT mean error:0.5292208345331999
+ERTphi_d:[[1753075.64578609]]  ERTphi_m:[[675736.641354]]  ERTphi_t:[[103.90427953]]
+dPhi:[[0.80280339]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[302.07433678]]
+ERT max error:20.863664951972865
+ERT mean error:0.5490022719278947
+ERTphi_d:[[1716084.30727105]]  ERTphi_m:[[644943.37376408]]  ERTphi_t:[[109.77254213]]
+dPhi:[[0.02155567]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[296.83256395]]
+ERT max error:23.414018914816815
+ERT mean error:0.5525017314986993
+ERTphi_d:[[1686305.79581089]]  ERTphi_m:[[653186.72583137]]  ERTphi_t:[[133.13546287]]
+dPhi:[[0.01765902]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[286.74442387]]
+ERT max error:23.974497584939158
+ERT mean error:0.5386843568306943
+ERTphi_d:[[1628995.0720247]]  ERTphi_m:[[641321.84612061]]  ERTphi_t:[[121.21007633]]
+dPhi:[[0.03518164]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[286.19618599]]
+ERT max error:24.09268909138044
+ERT mean error:0.5300329212007127
+ERTphi_d:[[1625880.53259763]]  ERTphi_m:[[639169.35289489]]  ERTphi_t:[[121.49278499]]
+dPhi:[[0.0019156]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[560.05753719]]
+ERT max error:25.91487967132383
+ERT mean error:0.740129148042156
+ERTphi_d:[[3187287.44416096]]  ERTphi_m:[[3930922.50044844]]  ERTphi_t:[[3.34685558]]
+dPhi:[[0.99821447]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[309.91435079]]
+ERT max error:20.898490016581356
+ERT mean error:0.5188368354204548
+ERTphi_d:[[1763722.57035676]]  ERTphi_m:[[682477.20113676]]  ERTphi_t:[[11.54334883]]
+dPhi:[[0.80713651]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[301.47311388]]
+ERT max error:20.41740773856836
+ERT mean error:0.538631551557976
+ERTphi_d:[[1715683.49111686]]  ERTphi_m:[[646273.32594178]]  ERTphi_t:[[22.00103698]]
+dPhi:[[0.02799997]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[296.03809787]]
+ERT max error:22.019046647970594
+ERT mean error:0.5394174803552844
+ERTphi_d:[[1684752.81500594]]  ERTphi_m:[[660998.13191541]]  ERTphi_t:[[24.4087938]]
+dPhi:[[0.01835918]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[291.30773774]]
+ERT max error:22.05591701196539
+ERT mean error:0.5377490685875925
+ERTphi_d:[[1657832.33548364]]  ERTphi_m:[[640058.60892878]]  ERTphi_t:[[32.0319673]]
+dPhi:[[0.01623836]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[288.02551715]]
+ERT max error:22.6831429544891
+ERT mean error:0.5405354489297166
+ERTphi_d:[[1639153.21810147]]  ERTphi_m:[[630977.55247507]]  ERTphi_t:[[29.78071108]]
+dPhi:[[0.01139559]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[284.93318461]]
+ERT max error:23.355192162507734
+ERT mean error:0.536535669914029
+ERTphi_d:[[1621554.75362549]]  ERTphi_m:[[648992.06692465]]  ERTphi_t:[[114.59979651]]
+dPhi:[[0.01085283]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:7---------------------------
+ERT chi2[[284.93326216]]
+ERT max error:23.35519594392658
+ERT mean error:0.5365359564855893
+ERTphi_d:[[1621555.19497601]]  ERTphi_m:[[648992.04970305]]  ERTphi_t:[[114.59929135]]
+dPhi:[[2.721773e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[560.12082623]]
+ERT max error:51.52960354720187
+ERT mean error:0.7362572961394728
+ERTphi_d:[[3182606.53465842]]  ERTphi_m:[[3931622.43927732]]  ERTphi_t:[[8.59639435]]
+dPhi:[[0.99821467]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[310.1022638]]
+ERT max error:25.774355683927748
+ERT mean error:0.5133273178861891
+ERTphi_d:[[1762001.06290044]]  ERTphi_m:[[681656.33558664]]  ERTphi_t:[[14.90139904]]
+dPhi:[[0.80624552]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[304.17891443]]
+ERT max error:24.745690522453746
+ERT mean error:0.5321294156927765
+ERTphi_d:[[1728344.59179705]]  ERTphi_m:[[651632.84965278]]  ERTphi_t:[[31.71393665]]
+dPhi:[[0.01947324]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[298.59686599]]
+ERT max error:24.68117480529328
+ERT mean error:0.5272336768943686
+ERTphi_d:[[1696627.39253567]]  ERTphi_m:[[660554.07261891]]  ERTphi_t:[[54.94267936]]
+dPhi:[[0.01869426]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[290.42115331]]
+ERT max error:24.631088201423285
+ERT mean error:0.5206404766724457
+ERTphi_d:[[1650172.99310871]]  ERTphi_m:[[650847.56060642]]  ERTphi_t:[[87.83161231]]
+dPhi:[[0.02815123]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[289.86567679]]
+ERT max error:24.508620893787615
+ERT mean error:0.5232967134453151
+ERTphi_d:[[1647016.77554885]]  ERTphi_m:[[643047.86355607]]  ERTphi_t:[[81.95944516]]
+dPhi:[[0.00191632]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[560.1991611]]
+ERT max error:51.52960354720187
+ERT mean error:0.7355488394943053
+ERTphi_d:[[3170167.05264197]]  ERTphi_m:[[3958993.52287697]]  ERTphi_t:[[247.53454169]]
+dPhi:[[0.99821492]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[310.45535584]]
+ERT max error:29.940758833835357
+ERT mean error:0.5144554352497435
+ERTphi_d:[[1756866.85871382]]  ERTphi_m:[[680354.14332238]]  ERTphi_t:[[93.1433544]]
+dPhi:[[0.80444354]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[301.16226099]]
+ERT max error:29.35164358593996
+ERT mean error:0.5355496540881881
+ERTphi_d:[[1704277.23492049]]  ERTphi_m:[[637469.76933601]]  ERTphi_t:[[131.06856875]]
+dPhi:[[0.03085743]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[293.21439671]]
+ERT max error:32.55962600664958
+ERT mean error:0.5305962977393528
+ERTphi_d:[[1659300.27100364]]  ERTphi_m:[[650697.69573544]]  ERTphi_t:[[171.34064614]]
+dPhi:[[0.02710598]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[285.98969917]]
+ERT max error:27.828175025159034
+ERT mean error:0.5314710269862496
+ERTphi_d:[[1618415.70759958]]  ERTphi_m:[[637628.8561079]]  ERTphi_t:[[260.77227415]]
+dPhi:[[0.02526209]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[285.98991681]]
+ERT max error:27.82819691637428
+ERT mean error:0.5314744139960845
+ERTphi_d:[[1618416.93923597]]  ERTphi_m:[[637628.76129657]]  ERTphi_t:[[260.77218757]]
+dPhi:[[7.61013037e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[561.98399476]]
+ERT max error:51.52960354720187
+ERT mean error:0.7293142475914361
+ERTphi_d:[[3171837.66644845]]  ERTphi_m:[[4000356.47066371]]  ERTphi_t:[[282.348784]]
+dPhi:[[0.99822059]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[312.11774007]]
+ERT max error:29.925488199307935
+ERT mean error:0.5110076082516428
+ERTphi_d:[[1761592.5249459]]  ERTphi_m:[[682310.91556781]]  ERTphi_t:[[98.31764549]]
+dPhi:[[0.80055127]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[302.6448724]]
+ERT max error:29.15546062024226
+ERT mean error:0.5281542913848305
+ERTphi_d:[[1708127.65979837]]  ERTphi_m:[[643071.91073731]]  ERTphi_t:[[140.23692648]]
+dPhi:[[0.03130027]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[294.01141733]]
+ERT max error:32.1230631621542
+ERT mean error:0.5205679631228435
+ERTphi_d:[[1659400.43942135]]  ERTphi_m:[[654061.155978]]  ERTphi_t:[[170.2679103]]
+dPhi:[[0.02936435]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[288.31070592]]
+ERT max error:27.734321808089284
+ERT mean error:0.531593419712999
+ERTphi_d:[[1627225.62419146]]  ERTphi_m:[[630551.28700823]]  ERTphi_t:[[334.80235968]]
+dPhi:[[0.01977281]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[286.76662252]]
+ERT max error:30.445016260608043
+ERT mean error:0.534629843232308
+ERTphi_d:[[1618510.8175285]]  ERTphi_m:[[617424.94703761]]  ERTphi_t:[[292.85709019]]
+dPhi:[[0.00538446]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[564.23505047]]
+ERT max error:36.97195104509081
+ERT mean error:0.7141022237334853
+ERTphi_d:[[3177207.56921969]]  ERTphi_m:[[4050520.58024816]]  ERTphi_t:[[94.05278094]]
+dPhi:[[0.99822769]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[313.93061178]]
+ERT max error:29.900365104890028
+ERT mean error:0.5039954371591341
+ERTphi_d:[[1767743.27491446]]  ERTphi_m:[[685096.28494861]]  ERTphi_t:[[37.65272266]]
+dPhi:[[0.79732409]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[304.5115067]]
+ERT max error:29.518618089949957
+ERT mean error:0.5234252763931554
+ERTphi_d:[[1714704.29421189]]  ERTphi_m:[[642894.60641092]]  ERTphi_t:[[93.84881422]]
+dPhi:[[0.03093185]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[293.41380129]]
+ERT max error:32.63322180867296
+ERT mean error:0.5191712332803595
+ERTphi_d:[[1652213.11505631]]  ERTphi_m:[[648839.2430676]]  ERTphi_t:[[123.37082286]]
+dPhi:[[0.03782271]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[290.83086336]]
+ERT max error:25.79428819129685
+ERT mean error:0.5165678582465689
+ERTphi_d:[[1637668.59155572]]  ERTphi_m:[[641356.16754099]]  ERTphi_t:[[251.69217702]]
+dPhi:[[0.00888124]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[566.13840592]]
+ERT max error:30.933876437747838
+ERT mean error:0.7063384833480215
+ERTphi_d:[[3189057.64054103]]  ERTphi_m:[[4088529.27429755]]  ERTphi_t:[[123.0611976]]
+dPhi:[[0.99823365]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[314.28134845]]
+ERT max error:25.258137296120832
+ERT mean error:0.4989077547034285
+ERTphi_d:[[1770346.83580427]]  ERTphi_m:[[688330.91118657]]  ERTphi_t:[[33.85723939]]
+dPhi:[[0.8013745]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[304.92968732]]
+ERT max error:25.064287271139865
+ERT mean error:0.5208565655803801
+ERTphi_d:[[1717668.9286537]]  ERTphi_m:[[644300.19356585]]  ERTphi_t:[[79.12242399]]
+dPhi:[[0.03066825]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[291.97867879]]
+ERT max error:27.82615845868485
+ERT mean error:0.517546136900399
+ERTphi_d:[[1644715.89762899]]  ERTphi_m:[[647571.66711129]]  ERTphi_t:[[95.13234703]]
+dPhi:[[0.04435601]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[285.62948817]]
+ERT max error:23.621509929385343
+ERT mean error:0.5037860292064609
+ERTphi_d:[[1608950.90684695]]  ERTphi_m:[[638967.87478859]]  ERTphi_t:[[257.41985864]]
+dPhi:[[0.02222876]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[283.50237775]]
+ERT max error:22.71622564029266
+ERT mean error:0.5090273191213741
+ERTphi_d:[[1596968.89384835]]  ERTphi_m:[[631419.63948722]]  ERTphi_t:[[212.80206047]]
+dPhi:[[0.00750297]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[567.16826322]]
+ERT max error:31.114334333548914
+ERT mean error:0.7048624747712843
+ERTphi_d:[[3193724.49018034]]  ERTphi_m:[[4117314.99665634]]  ERTphi_t:[[69.9881251]]
+dPhi:[[0.99823685]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[314.93201007]]
+ERT max error:25.42077894500642
+ERT mean error:0.4996358245449608
+ERTphi_d:[[1773382.14867603]]  ERTphi_m:[[690517.23878365]]  ERTphi_t:[[15.83946165]]
+dPhi:[[0.80092288]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[304.65656886]]
+ERT max error:26.082852586811832
+ERT mean error:0.5282803846345306
+ERTphi_d:[[1715521.13927416]]  ERTphi_m:[[640766.10342693]]  ERTphi_t:[[19.28158978]]
+dPhi:[[0.03372795]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[290.99316714]]
+ERT max error:28.288971919101478
+ERT mean error:0.5236841897165059
+ERTphi_d:[[1638582.5241835]]  ERTphi_m:[[643750.94649293]]  ERTphi_t:[[37.57357502]]
+dPhi:[[0.04695437]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[284.96072032]]
+ERT max error:28.27787553194076
+ERT mean error:0.527169982679422
+ERTphi_d:[[1604613.81614494]]  ERTphi_m:[[605783.4275658]]  ERTphi_t:[[51.1425826]]
+dPhi:[[0.0211694]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[284.34236611]]
+ERT max error:28.03661329539852
+ERT mean error:0.5330858450614474
+ERTphi_d:[[1601131.86358635]]  ERTphi_m:[[605523.24524138]]  ERTphi_t:[[38.02245994]]
+dPhi:[[0.00217468]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[567.49602333]]
+ERT max error:33.43700568445045
+ERT mean error:0.7100824141174686
+ERTphi_d:[[3194435.11534974]]  ERTphi_m:[[4128211.47751957]]  ERTphi_t:[[9.83157143]]
+dPhi:[[0.99823787]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[314.95759048]]
+ERT max error:27.27261984786933
+ERT mean error:0.5039119187494874
+ERTphi_d:[[1772896.27683734]]  ERTphi_m:[[691372.41466535]]  ERTphi_t:[[1.94893335]]
+dPhi:[[0.80181726]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[303.85091598]]
+ERT max error:28.354206105827217
+ERT mean error:0.5343947712607744
+ERTphi_d:[[1710376.80607483]]  ERTphi_m:[[639834.38021567]]  ERTphi_t:[[2.67726733]]
+dPhi:[[0.03655304]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[288.29430334]]
+ERT max error:30.198560310450546
+ERT mean error:0.5269529725671132
+ERTphi_d:[[1622808.6334847]]  ERTphi_m:[[611951.94426365]]  ERTphi_t:[[4.10545961]]
+dPhi:[[0.05396087]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[287.74193097]]
+ERT max error:30.672235951027083
+ERT mean error:0.5312339260116125
+ERTphi_d:[[1619699.32943196]]  ERTphi_m:[[614195.61945637]]  ERTphi_t:[[11.93717279]]
+dPhi:[[0.00191968]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[568.28963646]]
+ERT max error:33.43700568445045
+ERT mean error:0.711476840691824
+ERTphi_d:[[3197765.78433765]]  ERTphi_m:[[4131235.47406053]]  ERTphi_t:[[23.10833914]]
+dPhi:[[0.99824033]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[315.46802836]]
+ERT max error:27.26902942054417
+ERT mean error:0.5043802265640573
+ERTphi_d:[[1775138.59560239]]  ERTphi_m:[[692052.82785372]]  ERTphi_t:[[4.53828815]]
+dPhi:[[0.80141753]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[305.25906393]]
+ERT max error:27.818186892891497
+ERT mean error:0.5327297361865356
+ERTphi_d:[[1717692.75274334]]  ERTphi_m:[[642385.87366971]]  ERTphi_t:[[5.63740667]]
+dPhi:[[0.03344361]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[295.4534073]]
+ERT max error:29.16302971432247
+ERT mean error:0.5482702502452313
+ERTphi_d:[[1662516.32285211]]  ERTphi_m:[[647935.93090228]]  ERTphi_t:[[11.34598851]]
+dPhi:[[0.0331885]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[295.45349174]]
+ERT max error:29.163037389494217
+ERT mean error:0.5482709626960759
+ERTphi_d:[[1662516.79802085]]  ERTphi_m:[[647935.66804905]]  ERTphi_t:[[11.34595732]]
+dPhi:[[2.85812893e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[569.72123975]]
+ERT max error:33.43700568445045
+ERT mean error:0.7137532383857099
+ERTphi_d:[[3205251.6948341]]  ERTphi_m:[[4140783.71334651]]  ERTphi_t:[[36.20469306]]
+dPhi:[[0.99824476]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[316.25966772]]
+ERT max error:27.263243373826256
+ERT mean error:0.5055200416410441
+ERTphi_d:[[1779276.89061771]]  ERTphi_m:[[694043.56892455]]  ERTphi_t:[[20.12404771]]
+dPhi:[[0.80143502]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[306.73327116]]
+ERT max error:27.177299033935185
+ERT mean error:0.5291758099121051
+ERTphi_d:[[1725681.38354328]]  ERTphi_m:[[648264.7987416]]  ERTphi_t:[[27.89144827]]
+dPhi:[[0.03105759]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[291.09528345]]
+ERT max error:30.066193961675744
+ERT mean error:0.5218867564716446
+ERTphi_d:[[1637702.06470216]]  ERTphi_m:[[651061.99387777]]  ERTphi_t:[[33.82835178]]
+dPhi:[[0.0537212]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[287.71466439]]
+ERT max error:24.521407323414508
+ERT mean error:0.5183171016183663
+ERTphi_d:[[1618682.70184357]]  ERTphi_m:[[631768.66015672]]  ERTphi_t:[[91.70397913]]
+dPhi:[[0.0117499]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[286.89564028]]
+ERT max error:25.544231585751277
+ERT mean error:0.5190754781925865
+ERTphi_d:[[1614074.87220257]]  ERTphi_m:[[627145.77581356]]  ERTphi_t:[[85.62491423]]
+dPhi:[[0.00285478]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[571.76645675]]
+ERT max error:35.40789534420474
+ERT mean error:0.7158367804820006
+ERTphi_d:[[3216186.31924399]]  ERTphi_m:[[4168254.44413089]]  ERTphi_t:[[74.7914666]]
+dPhi:[[0.99825103]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[317.66068357]]
+ERT max error:29.09266759766859
+ERT mean error:0.5074637840732884
+ERTphi_d:[[1786841.34507049]]  ERTphi_m:[[696958.64853903]]  ERTphi_t:[[23.02701353]]
+dPhi:[[0.79992831]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[307.9218406]]
+ERT max error:28.918027188347008
+ERT mean error:0.5294674509717016
+ERTphi_d:[[1732060.35340133]]  ERTphi_m:[[652395.27657187]]  ERTphi_t:[[31.48947676]]
+dPhi:[[0.03162765]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[292.82661122]]
+ERT max error:31.878033656151764
+ERT mean error:0.5227686845163355
+ERTphi_d:[[1647149.68811221]]  ERTphi_m:[[654831.07171592]]  ERTphi_t:[[33.96817125]]
+dPhi:[[0.05155006]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[290.52051372]]
+ERT max error:23.95693094116529
+ERT mean error:0.5111835073491924
+ERTphi_d:[[1634177.8896651]]  ERTphi_m:[[649457.98423721]]  ERTphi_t:[[113.31310119]]
+dPhi:[[0.00793781]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[574.59491705]]
+ERT max error:35.40789534420474
+ERT mean error:0.7209570560684618
+ERTphi_d:[[3233245.59824602]]  ERTphi_m:[[4187424.07248064]]  ERTphi_t:[[53.76487707]]
+dPhi:[[0.99825964]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[319.17712936]]
+ERT max error:29.083235496088577
+ERT mean error:0.5108469736884476
+ERTphi_d:[[1796009.70688288]]  ERTphi_m:[[700566.12219744]]  ERTphi_t:[[13.13370454]]
+dPhi:[[0.80023838]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[309.73162409]]
+ERT max error:28.79479908601523
+ERT mean error:0.5316126606082664
+ERTphi_d:[[1742859.84873577]]  ERTphi_m:[[657944.59077516]]  ERTphi_t:[[19.20019337]]
+dPhi:[[0.03049577]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[299.49015712]]
+ERT max error:31.511060295754973
+ERT mean error:0.5273338642113405
+ERTphi_d:[[1685231.11409916]]  ERTphi_m:[[665581.77919396]]  ERTphi_t:[[26.41549906]]
+dPhi:[[0.03419634]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[295.39280826]]
+ERT max error:29.977497496032342
+ERT mean error:0.5358038212248188
+ERTphi_d:[[1662175.33206023]]  ERTphi_m:[[656274.64256563]]  ERTphi_t:[[91.52813637]]
+dPhi:[[0.01387085]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[295.20172614]]
+ERT max error:27.328268409448015
+ERT mean error:0.5406996266818387
+ERTphi_d:[[1661100.11298585]]  ERTphi_m:[[636784.78301664]]  ERTphi_t:[[174.38039061]]
+dPhi:[[0.00064729]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[575.60036156]]
+ERT max error:35.72195998276078
+ERT mean error:0.725072103685712
+ERTphi_d:[[3236600.83303433]]  ERTphi_m:[[4201011.41381371]]  ERTphi_t:[[3.19174503]]
+dPhi:[[0.99826268]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[320.08975523]]
+ERT max error:29.29786837806439
+ERT mean error:0.5141296290069591
+ERTphi_d:[[1799864.69365628]]  ERTphi_m:[[701914.31590733]]  ERTphi_t:[[11.01320806]]
+dPhi:[[0.79824675]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[309.82110071]]
+ERT max error:28.903006471715468
+ERT mean error:0.5295601201651919
+ERTphi_d:[[1742124.04927822]]  ERTphi_m:[[661929.42201633]]  ERTphi_t:[[22.66631982]]
+dPhi:[[0.03314382]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[302.7521035]]
+ERT max error:30.98842848227412
+ERT mean error:0.5313742885750827
+ERTphi_d:[[1702375.07796366]]  ERTphi_m:[[672863.64380427]]  ERTphi_t:[[32.34947576]]
+dPhi:[[0.02334913]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[301.24404608]]
+ERT max error:28.46267325099054
+ERT mean error:0.5396897484301889
+ERTphi_d:[[1693895.27110543]]  ERTphi_m:[[652984.62857755]]  ERTphi_t:[[73.41264554]]
+dPhi:[[0.0050061]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[577.77913415]]
+ERT max error:60.348719548330436
+ERT mean error:0.7361730619006078
+ERTphi_d:[[3248274.29218976]]  ERTphi_m:[[4208659.46586201]]  ERTphi_t:[[17.10017205]]
+dPhi:[[0.99826923]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[321.64586935]]
+ERT max error:29.446813212614646
+ERT mean error:0.5193828625837671
+ERTphi_d:[[1808293.07746586]]  ERTphi_m:[[704530.11343875]]  ERTphi_t:[[20.49886533]]
+dPhi:[[0.7963207]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[314.32954271]]
+ERT max error:28.856518495328054
+ERT mean error:0.5336864259958122
+ERTphi_d:[[1767160.68909034]]  ERTphi_m:[[672846.3136577]]  ERTphi_t:[[33.77306215]]
+dPhi:[[0.02327598]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[307.75327419]]
+ERT max error:36.64030985393344
+ERT mean error:0.5363297994954384
+ERTphi_d:[[1730188.90748159]]  ERTphi_m:[[667327.91577491]]  ERTphi_t:[[48.03572916]]
+dPhi:[[0.02136864]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[301.62183399]]
+ERT max error:34.77099630790428
+ERT mean error:0.5225820747583065
+ERTphi_d:[[1695717.9507135]]  ERTphi_m:[[657666.56909792]]  ERTphi_t:[[90.40998266]]
+dPhi:[[0.02032824]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[298.21419514]]
+ERT max error:35.878620485777866
+ERT mean error:0.5318143026407437
+ERTphi_d:[[1676560.20505956]]  ERTphi_m:[[647189.03281238]]  ERTphi_t:[[89.95966935]]
+dPhi:[[0.01142682]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[297.76033904]]
+ERT max error:35.85660817919905
+ERT mean error:0.5303998701745677
+ERTphi_d:[[1674008.62608317]]  ERTphi_m:[[646852.72884936]]  ERTphi_t:[[90.06262716]]
+dPhi:[[0.00152423]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[579.14957684]]
+ERT max error:60.348719548330436
+ERT mean error:0.738356663010358
+ERTphi_d:[[3254820.6218415]]  ERTphi_m:[[4214372.52975667]]  ERTphi_t:[[19.27057565]]
+dPhi:[[0.99827333]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[322.66275165]]
+ERT max error:31.309010793474208
+ERT mean error:0.5219030888482046
+ERTphi_d:[[1813364.66429954]]  ERTphi_m:[[705704.16414838]]  ERTphi_t:[[24.7305397]]
+dPhi:[[0.79490683]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[316.71281279]]
+ERT max error:35.82693490602544
+ERT mean error:0.5350689750740113
+ERTphi_d:[[1779926.00786799]]  ERTphi_m:[[678695.7638961]]  ERTphi_t:[[47.09144752]]
+dPhi:[[0.01878654]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[313.28861429]]
+ERT max error:37.68859507339877
+ERT mean error:0.5524881816908385
+ERTphi_d:[[1760682.01233633]]  ERTphi_m:[[666812.41652237]]  ERTphi_t:[[81.56808647]]
+dPhi:[[0.01092985]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[301.02151614]]
+ERT max error:32.71968283620132
+ERT mean error:0.5589079385798862
+ERTphi_d:[[1691740.92067924]]  ERTphi_m:[[670807.06734812]]  ERTphi_t:[[161.61089451]]
+dPhi:[[0.04075157]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[298.72836061]]
+ERT max error:35.62933021975108
+ERT mean error:0.5640425764209549
+ERTphi_d:[[1678853.38661541]]  ERTphi_m:[[634134.34928024]]  ERTphi_t:[[166.32067336]]
+dPhi:[[0.00767639]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[581.56007938]]
+ERT max error:60.348719548330436
+ERT mean error:0.7395143629791241
+ERTphi_d:[[3272438.56667803]]  ERTphi_m:[[4219530.30707362]]  ERTphi_t:[[5.73348938]]
+dPhi:[[0.99828049]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[324.44808692]]
+ERT max error:31.3089105606469
+ERT mean error:0.5237176775328025
+ERTphi_d:[[1825669.38510047]]  ERTphi_m:[[708248.29653124]]  ERTphi_t:[[12.74083488]]
+dPhi:[[0.79245957]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[319.39418712]]
+ERT max error:31.05287611893457
+ERT mean error:0.5348278335040884
+ERTphi_d:[[1797231.09094796]]  ERTphi_m:[[687096.64835166]]  ERTphi_t:[[30.2892693]]
+dPhi:[[0.01582339]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[310.76896162]]
+ERT max error:32.07166545038984
+ERT mean error:0.5274716126874635
+ERTphi_d:[[1748696.94706374]]  ERTphi_m:[[678639.4740863]]  ERTphi_t:[[60.42024879]]
+dPhi:[[0.02775446]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[299.76016641]]
+ERT max error:24.692410304015016
+ERT mean error:0.5086392639971868
+ERTphi_d:[[1686750.45636197]]  ERTphi_m:[[684991.54124588]]  ERTphi_t:[[100.64528834]]
+dPhi:[[0.03672534]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[297.44895588]]
+ERT max error:29.28395580934558
+ERT mean error:0.5233601694920212
+ERTphi_d:[[1673745.27476471]]  ERTphi_m:[[666641.65767365]]  ERTphi_t:[[88.65343438]]
+dPhi:[[0.00777011]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[583.12292448]]
+ERT max error:42.426445396101414
+ERT mean error:0.7410138373264892
+ERTphi_d:[[3283565.18777435]]  ERTphi_m:[[4220774.52747083]]  ERTphi_t:[[4.02311625]]
+dPhi:[[0.9982851]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[325.60954784]]
+Opening /tmp/tmp62_rx7bf.poly.
+  Segments are connected properly.
+18/08/22 - 22:48:33 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 22:48:33 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 22:48:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 22:48:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 22:48:35 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+18/08/22 - 22:48:35 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+18/08/22 - 22:48:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 22:48:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 22:48:36 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 22:48:37 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 22:49:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 22:49:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 22:49:39 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 22:49:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+18/08/22 - 22:49:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+18/08/22 - 22:49:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+18/08/22 - 22:49:56 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+18/08/22 - 22:49:57 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp6gt4zw1u.poly.
+  Segments are connected properly.
+19/08/22 - 00:16:16 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 00:16:16 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 00:16:17 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 00:16:17 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 00:16:18 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 00:16:18 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 00:16:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 00:16:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 00:16:18 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 00:16:19 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 00:17:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 00:17:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 00:17:09 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 00:17:10 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 00:17:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 00:17:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 00:17:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 00:17:26 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpoqpa8q4b.poly.
+  Segments are connected properly.
+19/08/22 - 00:47:17 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 00:47:17 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 00:47:18 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 00:47:18 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 00:47:19 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 00:47:19 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 00:47:20 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 00:47:20 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 00:47:20 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 00:47:21 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 00:48:23 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 00:48:23 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 00:48:23 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 00:48:24 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 00:48:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 00:48:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 00:48:41 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 00:48:42 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpeuw1xkfb.poly.
+  Segments are connected properly.
+19/08/22 - 02:01:23 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 02:01:23 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 02:01:24 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 02:01:24 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 02:01:25 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 02:01:25 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 02:01:26 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 02:01:26 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 02:01:26 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 02:01:27 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 02:02:28 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 02:02:28 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 02:02:28 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 02:02:30 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 02:02:44 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 02:02:44 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 02:02:44 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 02:02:45 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp8_55pb_t.poly.
+  Segments are connected properly.
+19/08/22 - 02:58:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 02:58:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 02:58:51 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 02:58:51 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 02:58:52 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 02:58:52 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 02:58:52 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 02:58:52 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 02:58:52 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 02:58:54 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 02:59:59 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 02:59:59 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 02:59:59 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 03:00:01 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 03:00:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 03:00:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 03:00:18 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 03:00:19 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp2obc0tv4.poly.
+  Segments are connected properly.
+19/08/22 - 03:57:31 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 03:57:31 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 03:57:32 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 03:57:32 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 03:57:33 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 03:57:33 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 03:57:33 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 03:57:33 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 03:57:33 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 03:57:34 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 03:58:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 03:58:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 03:58:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 03:58:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 03:58:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 03:58:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 03:58:39 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 03:58:40 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp2u6jwrqr.poly.
+  Segments are connected properly.
+19/08/22 - 04:27:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 04:27:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 04:27:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 04:27:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 04:27:51 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 04:27:51 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 04:27:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 04:27:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 04:27:51 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 04:27:52 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 04:28:48 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 04:28:48 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 04:28:48 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 04:28:49 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 04:29:05 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 04:29:05 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 04:29:05 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 04:29:06 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp9vbl822l.poly.
+  Segments are connected properly.
+19/08/22 - 05:49:33 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 05:49:33 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 05:49:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 05:49:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 05:49:35 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 05:49:35 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 05:49:35 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 05:49:35 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 05:49:35 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 05:49:37 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 05:50:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 05:50:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 05:50:40 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 05:50:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 05:50:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 05:50:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 05:50:56 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 05:50:57 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp7sr6lgr3.poly.
+  Segments are connected properly.
+19/08/22 - 07:03:06 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 07:03:06 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 07:03:07 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 07:03:07 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 07:03:08 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 07:03:08 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 07:03:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 07:03:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 07:03:09 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 07:03:10 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 07:04:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 07:04:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 07:04:11 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 07:04:12 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 07:04:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 07:04:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 07:04:27 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 07:04:28 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpnx5g3h76.poly.
+  Segments are connected properly.
+19/08/22 - 08:17:24 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 08:17:24 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 08:17:25 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 08:17:25 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 08:17:26 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 08:17:26 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 08:17:26 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 08:17:26 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 08:17:26 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 08:17:27 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 08:18:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 08:18:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 08:18:30 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 08:18:32 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 08:18:47 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 08:18:47 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 08:18:47 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 08:18:48 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp1hav95xj.poly.
+  Segments are connected properly.
+19/08/22 - 09:16:43 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 09:16:43 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 09:16:44 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 09:16:44 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 09:16:45 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 09:16:45 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 09:16:45 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 09:16:45 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 09:16:45 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 09:16:46 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 09:17:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 09:17:50 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 09:17:50 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 09:17:51 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 09:18:06 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 09:18:06 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 09:18:06 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 09:18:07 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpls6lul_8.poly.
+  Segments are connected properly.
+19/08/22 - 10:31:27 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 10:31:27 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 10:31:29 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 10:31:29 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 10:31:30 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 10:31:30 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 10:31:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 10:31:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 10:31:30 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 10:31:31 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 10:32:25 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 10:32:25 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 10:32:25 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 10:32:26 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 10:32:42 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 10:32:42 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 10:32:42 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 10:32:43 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpxdomi4so.poly.
+  Segments are connected properly.
+19/08/22 - 11:44:37 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 11:44:37 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 11:44:38 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 11:44:38 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 11:44:39 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 11:44:39 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 11:44:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 11:44:39 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 11:44:39 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 11:44:40 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 11:45:35 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 11:45:35 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 11:45:35 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 11:45:36 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 11:45:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 11:45:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 11:45:51 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 11:45:52 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpz89gebqd.poly.
+  Segments are connected properly.
+19/08/22 - 12:58:02 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 12:58:02 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 12:58:03 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 12:58:03 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 12:58:03 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 12:58:03 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 12:58:04 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 12:58:04 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 12:58:04 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 12:58:05 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 12:58:54 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 12:58:54 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 12:58:54 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 12:58:55 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 12:59:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 12:59:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 12:59:09 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 12:59:10 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpck0pte9x.poly.
+  Segments are connected properly.
+19/08/22 - 14:11:39 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 14:11:39 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 14:11:40 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 14:11:40 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 14:11:41 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 14:11:41 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 14:11:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 14:11:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 14:11:41 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 14:11:42 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 14:12:43 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 14:12:43 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 14:12:43 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 14:12:44 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 14:12:58 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 14:12:58 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 14:12:58 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 14:12:59 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpp0j4r_c6.poly.
+  Segments are connected properly.
+19/08/22 - 15:23:02 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 15:23:02 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 15:23:03 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 15:23:03 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 15:23:04 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 15:23:04 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 15:23:05 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 15:23:05 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 15:23:05 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 15:23:06 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 15:24:07 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 15:24:07 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 15:24:07 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 15:24:09 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 15:24:25 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 15:24:25 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 15:24:25 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 15:24:26 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpyycpdg0f.poly.
+  Segments are connected properly.
+19/08/22 - 16:54:14 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 16:54:14 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 16:54:15 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 16:54:15 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 16:54:16 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 16:54:16 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 16:54:16 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 16:54:16 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 16:54:16 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 16:54:17 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 16:55:21 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 16:55:21 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 16:55:21 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 16:55:22 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 16:55:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 16:55:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 16:55:40 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 16:55:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp_fl4vqrd.poly.
+  Segments are connected properly.
+19/08/22 - 18:09:22 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 18:09:22 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 18:09:23 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 18:09:23 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 18:09:24 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 18:09:24 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 18:09:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 18:09:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 18:09:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 18:09:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 18:10:29 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 18:10:29 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 18:10:29 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 18:10:30 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 18:10:43 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 18:10:43 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 18:10:43 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 18:10:45 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpm9ez9wd0.poly.
+  Segments are connected properly.
+19/08/22 - 19:30:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 19:30:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 19:30:35 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 19:30:35 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 19:30:36 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 19:30:36 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 19:30:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 19:30:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 19:30:36 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 19:30:37 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 19:31:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 19:31:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 19:31:41 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 19:31:42 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 19:31:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 19:31:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 19:31:57 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 19:31:58 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpdxubvmkm.poly.
+  Segments are connected properly.
+19/08/22 - 20:44:03 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 20:44:03 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 20:44:04 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 20:44:04 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 20:44:05 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 20:44:05 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 20:44:06 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 20:44:06 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 20:44:06 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 20:44:07 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 20:44:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 20:44:57 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 20:44:57 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 20:44:58 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 20:45:12 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 20:45:12 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 20:45:12 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 20:45:13 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp3lbocy7c.poly.
+  Segments are connected properly.
+19/08/22 - 21:57:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 21:57:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 21:57:35 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 21:57:35 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 21:57:36 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 21:57:36 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 21:57:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 21:57:36 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 21:57:36 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 21:57:37 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 21:58:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 21:58:40 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 21:58:40 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 21:58:41 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 21:58:55 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 21:58:55 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 21:58:55 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 21:58:56 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpb99uswsg.poly.
+  Segments are connected properly.
+19/08/22 - 23:11:47 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 23:11:47 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 23:11:48 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 23:11:48 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 23:11:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+19/08/22 - 23:11:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+19/08/22 - 23:11:49 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 23:11:49 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 23:11:49 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 23:11:50 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 23:12:43 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 23:12:43 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 23:12:43 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 23:12:45 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+19/08/22 - 23:13:00 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+19/08/22 - 23:13:00 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+19/08/22 - 23:13:00 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+19/08/22 - 23:13:01 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+ERT max error:34.97414277708216
+ERT mean error:0.5269826105844986
+ERTphi_d:[[1833507.36390473]]  ERTphi_m:[[709250.69681722]]  ERTphi_t:[[9.66777149]]
+dPhi:[[0.79086556]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[322.26104807]]
+ERT max error:34.728741120372895
+ERT mean error:0.537599465441797
+ERTphi_d:[[1814651.96168817]]  ERTphi_m:[[693545.58460329]]  ERTphi_t:[[19.0653651]]
+dPhi:[[0.01039064]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[316.5550139]]
+ERT max error:35.826829140019605
+ERT mean error:0.5379535976326599
+ERTphi_d:[[1782521.28326734]]  ERTphi_m:[[690434.04414045]]  ERTphi_t:[[30.25689095]]
+dPhi:[[0.01802541]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[312.95956893]]
+ERT max error:35.26540783312878
+ERT mean error:0.5495470905444831
+ERTphi_d:[[1762275.33266594]]  ERTphi_m:[[681458.42333362]]  ERTphi_t:[[65.09968671]]
+dPhi:[[0.01148853]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[306.56521182]]
+ERT max error:37.381378503755485
+ERT mean error:0.5766190323124585
+ERTphi_d:[[1726268.70773626]]  ERTphi_m:[[672739.92490349]]  ERTphi_t:[[131.92872204]]
+dPhi:[[0.02085807]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[306.56531263]]
+ERT max error:37.381382671458546
+ERT mean error:0.5766192384066425
+ERTphi_d:[[1726269.27539959]]  ERTphi_m:[[672739.80124097]]  ERTphi_t:[[131.92855339]]
+dPhi:[[3.28838224e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[584.18357005]]
+ERT max error:42.426445396101414
+ERT mean error:0.7440456705909094
+ERTphi_d:[[3291874.41723418]]  ERTphi_m:[[4221051.42350395]]  ERTphi_t:[[9.63620537]]
+dPhi:[[0.99828821]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[324.96103574]]
+ERT max error:34.96863162316289
+ERT mean error:0.5275228115024296
+ERTphi_d:[[1831155.43642055]]  ERTphi_m:[[709513.71633902]]  ERTphi_t:[[14.43771388]]
+dPhi:[[0.79770343]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[320.86990263]]
+ERT max error:34.619286188873936
+ERT mean error:0.5406992601102477
+ERTphi_d:[[1808101.90130288]]  ERTphi_m:[[687312.73558013]]  ERTphi_t:[[24.70207897]]
+dPhi:[[0.01275013]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[312.69693361]]
+ERT max error:35.95712292384749
+ERT mean error:0.5365064056299798
+ERTphi_d:[[1762047.22088956]]  ERTphi_m:[[685581.03471875]]  ERTphi_t:[[38.32902805]]
+dPhi:[[0.02613703]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[308.43184409]]
+ERT max error:34.460415771913745
+ERT mean error:0.5435409678923481
+ERTphi_d:[[1738013.44147174]]  ERTphi_m:[[689620.61681329]]  ERTphi_t:[[83.25697667]]
+dPhi:[[0.0138283]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[302.46275856]]
+ERT max error:37.068674335475414
+ERT mean error:0.5500461464887455
+ERTphi_d:[[1704377.64447967]]  ERTphi_m:[[661110.50383433]]  ERTphi_t:[[85.6032954]]
+dPhi:[[0.01973494]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[294.54368111]]
+ERT max error:31.67263824916451
+ERT mean error:0.5254514804027673
+ERTphi_d:[[1659753.64308079]]  ERTphi_m:[[667073.82798352]]  ERTphi_t:[[151.64324362]]
+dPhi:[[0.02688592]]
+-------------------ERT Iteration:7---------------------------
+ERT chi2[[292.47275256]]
+ERT max error:30.87106975353654
+ERT mean error:0.5222671129571731
+ERTphi_d:[[1648083.96065561]]  ERTphi_m:[[664099.09865493]]  ERTphi_t:[[139.95255739]]
+dPhi:[[0.00708076]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[585.16276504]]
+ERT max error:42.426445396101414
+ERT mean error:0.7478666111117461
+ERTphi_d:[[3296807.01822883]]  ERTphi_m:[[4221280.64875202]]  ERTphi_t:[[8.26910851]]
+dPhi:[[0.99829107]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[325.23841051]]
+ERT max error:34.98439847006235
+ERT mean error:0.5296264288766174
+ERTphi_d:[[1832393.20480988]]  ERTphi_m:[[709719.45663301]]  ERTphi_t:[[13.64462548]]
+dPhi:[[0.79918099]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[320.63993019]]
+ERT max error:34.625503623688495
+ERT mean error:0.5424193071480036
+ERTphi_d:[[1806485.36669428]]  ERTphi_m:[[687169.80043165]]  ERTphi_t:[[22.38383465]]
+dPhi:[[0.01434157]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[312.43871339]]
+ERT max error:36.08504565073175
+ERT mean error:0.5406904894939787
+ERTphi_d:[[1760279.71122571]]  ERTphi_m:[[679906.59060675]]  ERTphi_t:[[32.04651098]]
+dPhi:[[0.02624904]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[306.53717474]]
+ERT max error:33.714735265699694
+ERT mean error:0.5412410454819565
+ERTphi_d:[[1727030.44245789]]  ERTphi_m:[[690431.21907824]]  ERTphi_t:[[58.722248]]
+dPhi:[[0.01925228]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[302.57003648]]
+ERT max error:36.640132721344926
+ERT mean error:0.5423463283564472
+ERTphi_d:[[1704679.58553847]]  ERTphi_m:[[665317.86902523]]  ERTphi_t:[[52.56604909]]
+dPhi:[[0.01311147]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[298.1584203]]
+ERT max error:34.425040296802024
+ERT mean error:0.5466333635344881
+ERTphi_d:[[1679824.5399879]]  ERTphi_m:[[668343.14992914]]  ERTphi_t:[[226.50356021]]
+dPhi:[[0.01479622]]
+-------------------ERT Iteration:7---------------------------
+ERT chi2[[293.87553843]]
+ERT max error:36.850941867309174
+ERT mean error:0.5451988657835976
+ERTphi_d:[[1655694.78351126]]  ERTphi_m:[[659339.45482974]]  ERTphi_t:[[135.67223445]]
+dPhi:[[0.0145738]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:8---------------------------
+ERT chi2[[293.8760223]]
+ERT max error:36.85095058256987
+ERT mean error:0.5452007470716194
+ERTphi_d:[[1655697.5096201]]  ERTphi_m:[[659339.46114872]]  ERTphi_t:[[135.67203916]]
+dPhi:[[1.64650175e-06]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[586.23113141]]
+ERT max error:41.10704838360677
+ERT mean error:0.7324749939696313
+ERTphi_d:[[3302239.96323507]]  ERTphi_m:[[4216734.78062452]]  ERTphi_t:[[2.46569785]]
+dPhi:[[0.99829419]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[325.42896782]]
+ERT max error:33.82146353643572
+ERT mean error:0.5166208722834051
+ERTphi_d:[[1833141.375743]]  ERTphi_m:[[711026.05347023]]  ERTphi_t:[[9.21824003]]
+dPhi:[[0.80141041]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[319.88845477]]
+ERT max error:33.48090738109344
+ERT mean error:0.5285906364668481
+ERTphi_d:[[1801931.66570172]]  ERTphi_m:[[685871.82825204]]  ERTphi_t:[[13.49106983]]
+dPhi:[[0.01732014]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[313.27567987]]
+ERT max error:34.93554375273466
+ERT mean error:0.531442897735369
+ERTphi_d:[[1764681.90471092]]  ERTphi_m:[[676317.7462596]]  ERTphi_t:[[21.89087109]]
+dPhi:[[0.02110848]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[304.17309539]]
+ERT max error:30.720919574399076
+ERT mean error:0.5306929141658426
+ERTphi_d:[[1713407.04635453]]  ERTphi_m:[[680746.73505717]]  ERTphi_t:[[39.06928531]]
+dPhi:[[0.02992567]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[302.54250054]]
+ERT max error:35.300873971061584
+ERT mean error:0.5400454471069015
+ERTphi_d:[[1704221.90554404]]  ERTphi_m:[[657992.55282994]]  ERTphi_t:[[42.75369741]]
+dPhi:[[0.00538964]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[587.81891091]]
+ERT max error:40.262236773141304
+ERT mean error:0.7262309330427152
+ERTphi_d:[[3309420.46842042]]  ERTphi_m:[[4223090.71758137]]  ERTphi_t:[[13.79317473]]
+dPhi:[[0.9982988]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[326.53288114]]
+ERT max error:33.13055155683003
+ERT mean error:0.5106313679240045
+ERTphi_d:[[1838380.12080304]]  ERTphi_m:[[712763.26072631]]  ERTphi_t:[[11.26129226]]
+dPhi:[[0.80018291]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[322.25273993]]
+ERT max error:32.81921638975491
+ERT mean error:0.523371972043634
+ERTphi_d:[[1814282.92580214]]  ERTphi_m:[[689883.31043937]]  ERTphi_t:[[18.68744159]]
+dPhi:[[0.01328194]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[314.46111622]]
+ERT max error:34.181275227870636
+ERT mean error:0.5241798375573439
+ERTphi_d:[[1770416.08433643]]  ERTphi_m:[[678945.83269455]]  ERTphi_t:[[29.36885294]]
+dPhi:[[0.0247777]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[303.02193572]]
+ERT max error:31.744331165391422
+ERT mean error:0.5214759283284268
+ERTphi_d:[[1706013.4980809]]  ERTphi_m:[[692747.51395072]]  ERTphi_t:[[46.63206703]]
+dPhi:[[0.03775034]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[302.48596974]]
+ERT max error:35.01315297622295
+ERT mean error:0.5303650581201401
+ERTphi_d:[[1702996.00965447]]  ERTphi_m:[[664490.59461274]]  ERTphi_t:[[48.58231191]]
+dPhi:[[0.00177187]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[589.67362363]]
+ERT max error:164.660000876821
+ERT mean error:0.751456776914725
+ERTphi_d:[[3319862.50103164]]  ERTphi_m:[[4222119.69574336]]  ERTphi_t:[[21.76718268]]
+dPhi:[[0.99830415]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[327.28791463]]
+ERT max error:88.5382477740472
+ERT mean error:0.5213878176612187
+ERTphi_d:[[1842630.95934439]]  ERTphi_m:[[714516.21035331]]  ERTphi_t:[[6.02498764]]
+dPhi:[[0.80169691]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[321.04938254]]
+ERT max error:110.66276878364857
+ERT mean error:0.5364958601889952
+ERTphi_d:[[1807508.02372011]]  ERTphi_m:[[688834.81724118]]  ERTphi_t:[[15.14168795]]
+dPhi:[[0.01943169]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[313.62537651]]
+ERT max error:118.80883622857102
+ERT mean error:0.5385266508489598
+ERTphi_d:[[1765710.86974509]]  ERTphi_m:[[673206.17362625]]  ERTphi_t:[[30.86137421]]
+dPhi:[[0.02367157]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[303.66268167]]
+ERT max error:120.31317703864909
+ERT mean error:0.5278024439723461
+ERTphi_d:[[1709620.89778033]]  ERTphi_m:[[690743.9025939]]  ERTphi_t:[[86.69299668]]
+dPhi:[[0.03280843]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[299.96890685]]
+ERT max error:123.35807347344502
+ERT mean error:0.5408184993834577
+ERTphi_d:[[1688824.94554446]]  ERTphi_m:[[653702.31236893]]  ERTphi_t:[[89.71493341]]
+dPhi:[[0.01231386]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[299.49859024]]
+ERT max error:122.05031286153455
+ERT mean error:0.5456957996151333
+ERTphi_d:[[1686177.06306676]]  ERTphi_m:[[652009.71316926]]  ERTphi_t:[[135.00967544]]
+dPhi:[[0.00157035]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[591.01533822]]
+ERT max error:164.660000876821
+ERT mean error:0.7557140724695874
+ERTphi_d:[[3327416.35416123]]  ERTphi_m:[[4225453.88981409]]  ERTphi_t:[[11.00807732]]
+dPhi:[[0.998308]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[328.01213732]]
+ERT max error:85.27358258061447
+ERT mean error:0.5242538985038682
+ERTphi_d:[[1846708.33309757]]  ERTphi_m:[[715401.12251484]]  ERTphi_t:[[6.30371341]]
+dPhi:[[0.80180936]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[326.28480787]]
+ERT max error:107.34958572839572
+ERT mean error:0.5416227632086211
+ERTphi_d:[[1836983.46833087]]  ERTphi_m:[[696711.34030049]]  ERTphi_t:[[25.06072436]]
+dPhi:[[0.00529393]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[591.85438434]]
+ERT max error:164.660000876821
+ERT mean error:0.7611918414351904
+ERTphi_d:[[3332140.18382577]]  ERTphi_m:[[4223274.18364806]]  ERTphi_t:[[2.0421089]]
+dPhi:[[0.9983104]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[328.18239656]]
+ERT max error:87.56076684501497
+ERT mean error:0.5268664454401143
+ERTphi_d:[[1847666.89264444]]  ERTphi_m:[[716606.89899034]]  ERTphi_t:[[8.53881022]]
+dPhi:[[0.80343123]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[324.17109382]]
+ERT max error:109.58287881666828
+ERT mean error:0.5441088989363053
+ERTphi_d:[[1825083.2582079]]  ERTphi_m:[[693200.5627281]]  ERTphi_t:[[30.30445601]]
+dPhi:[[0.01237403]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[315.64436978]]
+ERT max error:114.66318624680545
+ERT mean error:0.5422380865154458
+ERTphi_d:[[1777077.80185279]]  ERTphi_m:[[681925.98768928]]  ERTphi_t:[[41.23989854]]
+dPhi:[[0.02701371]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[309.45730597]]
+ERT max error:105.34842102082355
+ERT mean error:0.5480589003074927
+ERTphi_d:[[1742244.63260543]]  ERTphi_m:[[695013.27840531]]  ERTphi_t:[[70.17475936]]
+dPhi:[[0.01999327]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[307.91647141]]
+ERT max error:113.43717837432852
+ERT mean error:0.5548843664204981
+ERTphi_d:[[1733569.73405766]]  ERTphi_m:[[669933.30981665]]  ERTphi_t:[[65.89461401]]
+dPhi:[[0.00500407]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[592.42579602]]
+ERT max error:38.978909878323904
+ERT mean error:0.7377655668776167
+ERTphi_d:[[3332987.52838934]]  ERTphi_m:[[4229412.60181618]]  ERTphi_t:[[3.0649114]]
+dPhi:[[0.99831202]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[328.55909972]]
+ERT max error:31.983843461192194
+ERT mean error:0.5151996061775095
+ERTphi_d:[[1848473.49505013]]  ERTphi_m:[[717066.59321189]]  ERTphi_t:[[8.65036058]]
+dPhi:[[0.80310269]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[324.18316318]]
+ERT max error:31.751434834017143
+ERT mean error:0.528293133412878
+ERTphi_d:[[1823854.47603469]]  ERTphi_m:[[692494.53934011]]  ERTphi_t:[[25.02066979]]
+dPhi:[[0.01349835]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[316.05012517]]
+ERT max error:33.1354359555369
+ERT mean error:0.5252882010834424
+ERTphi_d:[[1778098.00418312]]  ERTphi_m:[[684120.59789607]]  ERTphi_t:[[35.4923548]]
+dPhi:[[0.02573338]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[313.40704929]]
+ERT max error:32.63940773040539
+ERT mean error:0.5322067668572542
+ERTphi_d:[[1763228.05932185]]  ERTphi_m:[[695987.02183322]]  ERTphi_t:[[82.31413309]]
+dPhi:[[0.00843336]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[593.4212902]]
+ERT max error:43.405841885058415
+ERT mean error:0.7468008679868745
+ERTphi_d:[[3336807.91476805]]  ERTphi_m:[[4239472.74992798]]  ERTphi_t:[[15.73201]]
+dPhi:[[0.99831486]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[329.63257848]]
+ERT max error:35.62467992402206
+ERT mean error:0.5227514255087718
+ERTphi_d:[[1853523.98876908]]  ERTphi_m:[[717934.32917604]]  ERTphi_t:[[8.25541227]]
+dPhi:[[0.80025073]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[325.09471716]]
+ERT max error:35.424878588606354
+ERT mean error:0.5315279334793322
+ERTphi_d:[[1828007.59461081]]  ERTphi_m:[[702967.43540984]]  ERTphi_t:[[24.25810234]]
+dPhi:[[0.01395858]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[312.09337456]]
+ERT max error:37.03850358555601
+ERT mean error:0.5380400600398353
+ERTphi_d:[[1754901.04512438]]  ERTphi_m:[[675179.26851045]]  ERTphi_t:[[49.92908308]]
+dPhi:[[0.0416585]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[309.58020089]]
+ERT max error:32.12846155716489
+ERT mean error:0.5439708430796257
+ERTphi_d:[[1740769.46959728]]  ERTphi_m:[[693669.43376618]]  ERTphi_t:[[91.54815163]]
+dPhi:[[0.00811801]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[594.87655318]]
+ERT max error:43.405841885058415
+ERT mean error:0.752350765399808
+ERTphi_d:[[3343801.10545102]]  ERTphi_m:[[4252610.0393217]]  ERTphi_t:[[17.50776723]]
+dPhi:[[0.99831898]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[330.34677657]]
+ERT max error:35.633129061379854
+ERT mean error:0.5263859826954539
+ERTphi_d:[[1856879.23108887]]  ERTphi_m:[[719994.44209218]]  ERTphi_t:[[8.99064389]]
+dPhi:[[0.80076391]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[327.15166894]]
+ERT max error:35.36110075040428
+ERT mean error:0.5396342712935392
+ERTphi_d:[[1838919.53113084]]  ERTphi_m:[[697790.28517987]]  ERTphi_t:[[32.99064642]]
+dPhi:[[0.00976644]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[595.63676473]]
+ERT max error:45.31041284968985
+ERT mean error:0.7597896610103729
+ERTphi_d:[[3346287.34427593]]  ERTphi_m:[[4264085.32027901]]  ERTphi_t:[[5.23030866]]
+dPhi:[[0.99832112]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[330.83360001]]
+ERT max error:37.2226974015769
+ERT mean error:0.5316848621994076
+ERTphi_d:[[1858623.16486143]]  ERTphi_m:[[720813.77692078]]  ERTphi_t:[[9.60168375]]
+dPhi:[[0.80041194]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[322.60462397]]
+ERT max error:36.57939244694949
+ERT mean error:0.5431771707484506
+ERTphi_d:[[1812392.77744034]]  ERTphi_m:[[688031.96089617]]  ERTphi_t:[[26.04721437]]
+dPhi:[[0.02550793]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[315.3469935]]
+ERT max error:39.68807128137418
+ERT mean error:0.5662975904189937
+ERTphi_d:[[1771619.40947413]]  ERTphi_m:[[666942.56945307]]  ERTphi_t:[[53.92775526]]
+dPhi:[[0.02301474]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[304.95198499]]
+ERT max error:31.496600507399837
+ERT mean error:0.552806181125283
+ERTphi_d:[[1713220.2516878]]  ERTphi_m:[[692403.81515071]]  ERTphi_t:[[112.48190122]]
+dPhi:[[0.03408736]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[304.95201145]]
+ERT max error:31.496706896514258
+ERT mean error:0.5528066654742108
+ERTphi_d:[[1713220.40033217]]  ERTphi_m:[[692403.55956314]]  ERTphi_t:[[112.48184626]]
+dPhi:[[8.67631303e-08]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[595.90672662]]
+ERT max error:48.17499450679669
+ERT mean error:0.7677036773111835
+ERTphi_d:[[3346016.2699931]]  ERTphi_m:[[4273659.9192258]]  ERTphi_t:[[6.80493656]]
+dPhi:[[0.99832189]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[330.90346554]]
+ERT max error:39.61429736954954
+ERT mean error:0.5376801816980573
+ERTphi_d:[[1858022.95901021]]  ERTphi_m:[[721186.63904984]]  ERTphi_t:[[4.60913488]]
+dPhi:[[0.80084764]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[320.91610832]]
+ERT max error:39.21283421112006
+ERT mean error:0.5527166245723912
+ERTphi_d:[[1801943.94819827]]  ERTphi_m:[[681576.38674741]]  ERTphi_t:[[6.26250785]]
+dPhi:[[0.0311214]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[312.60170544]]
+ERT max error:42.2170491193786
+ERT mean error:0.5632334328464389
+ERTphi_d:[[1755258.57605542]]  ERTphi_m:[[666824.71770473]]  ERTphi_t:[[9.99687124]]
+dPhi:[[0.02659743]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[307.64591686]]
+ERT max error:39.02459405882664
+ERT mean error:0.5627689982337912
+ERTphi_d:[[1727431.8231528]]  ERTphi_m:[[705829.40795602]]  ERTphi_t:[[73.49530256]]
+dPhi:[[0.01610874]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[306.3332113]]
+ERT max error:44.875631566216065
+ERT mean error:0.6081854339462196
+ERTphi_d:[[1720060.98145452]]  ERTphi_m:[[659458.91955289]]  ERTphi_t:[[143.09304372]]
+dPhi:[[0.00428522]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[596.2226992]]
+ERT max error:53.49266924610147
+ERT mean error:0.7833033133149478
+ERTphi_d:[[3346598.01061473]]  ERTphi_m:[[4280893.38685392]]  ERTphi_t:[[6.93196671]]
+dPhi:[[0.99832277]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[330.81074629]]
+ERT max error:43.971649458789784
+ERT mean error:0.5492005013143479
+ERTphi_d:[[1856840.71894397]]  ERTphi_m:[[721218.64381632]]  ERTphi_t:[[0.94342815]]
+dPhi:[[0.80230753]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[321.25625502]]
+ERT max error:43.38572882141326
+ERT mean error:0.5643329388744766
+ERTphi_d:[[1803211.35942498]]  ERTphi_m:[[682619.3672193]]  ERTphi_t:[[3.5224297]]
+dPhi:[[0.02974103]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[309.13315188]]
+ERT max error:46.770372816082
+ERT mean error:0.5768437033357902
+ERTphi_d:[[1735164.38148373]]  ERTphi_m:[[666513.76666465]]  ERTphi_t:[[5.6886304]]
+dPhi:[[0.03921644]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[302.63391807]]
+ERT max error:41.169206406332044
+ERT mean error:0.5705152881366343
+ERTphi_d:[[1698684.18213366]]  ERTphi_m:[[705410.20812831]]  ERTphi_t:[[31.11361021]]
+dPhi:[[0.02147556]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[302.33367758]]
+ERT max error:41.54643130674276
+ERT mean error:0.5732160081902291
+ERTphi_d:[[1696998.93227627]]  ERTphi_m:[[703218.72416539]]  ERTphi_t:[[31.21447109]]
+dPhi:[[0.00099308]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[597.13830592]]
+ERT max error:53.49266924610147
+ERT mean error:0.7946322103720391
+ERTphi_d:[[3351737.31112041]]  ERTphi_m:[[4286858.06216695]]  ERTphi_t:[[0.69502428]]
+dPhi:[[0.99832535]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[331.56261653]]
+ERT max error:43.98433618966547
+ERT mean error:0.5574403532939618
+ERTphi_d:[[1861060.96657377]]  ERTphi_m:[[722722.07713648]]  ERTphi_t:[[1.82895666]]
+dPhi:[[0.80098201]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[322.36114435]]
+ERT max error:43.2574456892874
+ERT mean error:0.5721157585616494
+ERTphi_d:[[1809413.10325958]]  ERTphi_m:[[685252.16006456]]  ERTphi_t:[[3.93862706]]
+dPhi:[[0.02854399]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[310.8551379]]
+ERT max error:46.750127964157436
+ERT mean error:0.5861783962897722
+ERTphi_d:[[1744829.88902783]]  ERTphi_m:[[667298.41443174]]  ERTphi_t:[[14.05894279]]
+dPhi:[[0.03701405]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[308.01927474]]
+ERT max error:39.4063970078636
+ERT mean error:0.5724305708784004
+ERTphi_d:[[1728912.18909927]]  ERTphi_m:[[703990.80380046]]  ERTphi_t:[[82.82993466]]
+dPhi:[[0.00920677]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[598.30364783]]
+ERT max error:53.49266924610147
+ERT mean error:0.8012737510343745
+ERTphi_d:[[3358876.67892964]]  ERTphi_m:[[4286007.41861622]]  ERTphi_t:[[1.81988741]]
+dPhi:[[0.99832861]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[332.25430753]]
+ERT max error:43.99518105376315
+ERT mean error:0.5610805576209309
+ERTphi_d:[[1865275.68247006]]  ERTphi_m:[[724227.88299212]]  ERTphi_t:[[3.16856432]]
+dPhi:[[0.80074008]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[323.10726529]]
+ERT max error:43.05978967441007
+ERT mean error:0.5752649515649643
+ERTphi_d:[[1813924.18736287]]  ERTphi_m:[[687677.072977]]  ERTphi_t:[[5.35676557]]
+dPhi:[[0.02830961]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[310.89867415]]
+ERT max error:46.65273933297916
+ERT mean error:0.5901613855163335
+ERTphi_d:[[1745385.15670514]]  ERTphi_m:[[669269.22125091]]  ERTphi_t:[[16.12912382]]
+dPhi:[[0.03926871]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[304.96854243]]
+ERT max error:42.443725070910105
+ERT mean error:0.5853058356337522
+ERTphi_d:[[1712093.39722838]]  ERTphi_m:[[704200.83697681]]  ERTphi_t:[[95.58050536]]
+dPhi:[[0.01944506]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[304.85939144]]
+ERT max error:47.81527250406456
+ERT mean error:0.6122384695356271
+ERTphi_d:[[1711480.6235702]]  ERTphi_m:[[669944.1551091]]  ERTphi_t:[[102.15379327]]
+dPhi:[[0.00035804]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[599.74405313]]
+ERT max error:52.64332310352963
+ERT mean error:0.7998222472844756
+ERTphi_d:[[3366963.11426897]]  ERTphi_m:[[4289623.36658144]]  ERTphi_t:[[13.04236829]]
+dPhi:[[0.99833262]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[333.2952956]]
+ERT max error:43.26387300129873
+ERT mean error:0.5590679665100411
+ERTphi_d:[[1871119.78948483]]  ERTphi_m:[[726155.54196099]]  ERTphi_t:[[3.89901682]]
+dPhi:[[0.7994375]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[326.67396473]]
+ERT max error:42.434682748308475
+ERT mean error:0.5732275677716027
+ERTphi_d:[[1833947.63800351]]  ERTphi_m:[[694067.13585571]]  ERTphi_t:[[5.69281178]]
+dPhi:[[0.02026893]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[318.89813763]]
+ERT max error:45.27058623767679
+ERT mean error:0.5791068426798126
+ERTphi_d:[[1790294.14463407]]  ERTphi_m:[[680649.35292391]]  ERTphi_t:[[16.53253828]]
+dPhi:[[0.02438342]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[308.23817412]]
+ERT max error:45.88338130883431
+ERT mean error:0.5913262877890625
+ERTphi_d:[[1730449.10951904]]  ERTphi_m:[[690889.38850371]]  ERTphi_t:[[49.2965413]]
+dPhi:[[0.03458353]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[308.11059163]]
+ERT max error:47.48409216210439
+ERT mean error:0.5969360048157455
+ERTphi_d:[[1729732.86138835]]  ERTphi_m:[[678895.48533934]]  ERTphi_t:[[56.58808909]]
+dPhi:[[0.00041408]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[601.1886288]]
+ERT max error:51.94429383880334
+ERT mean error:0.7991107197073637
+ERTphi_d:[[3375072.96210372]]  ERTphi_m:[[4292776.30870741]]  ERTphi_t:[[11.27439881]]
+dPhi:[[0.99833663]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[333.91252975]]
+ERT max error:42.632037997924584
+ERT mean error:0.5573734766776323
+ERTphi_d:[[1874584.94202311]]  ERTphi_m:[[727831.99651945]]  ERTphi_t:[[3.11224354]]
+dPhi:[[0.80043747]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[324.91501482]]
+ERT max error:41.698469927807395
+ERT mean error:0.5721566787256563
+ERTphi_d:[[1824072.89318637]]  ERTphi_m:[[689755.45681783]]  ERTphi_t:[[4.5958926]]
+dPhi:[[0.0276919]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[313.50778185]]
+ERT max error:45.502185259229215
+ERT mean error:0.5857351976380254
+ERTphi_d:[[1760032.68728162]]  ERTphi_m:[[671389.9227578]]  ERTphi_t:[[9.2438745]]
+dPhi:[[0.0363858]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[306.64889852]]
+ERT max error:40.04821262352244
+ERT mean error:0.5816257848979016
+ERTphi_d:[[1721526.91629089]]  ERTphi_m:[[712595.95454573]]  ERTphi_t:[[29.08249823]]
+dPhi:[[0.02236722]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[305.13879384]]
+ERT max error:43.87470580213774
+ERT mean error:0.5996134548443268
+ERTphi_d:[[1713049.18859652]]  ERTphi_m:[[692906.39412268]]  ERTphi_t:[[28.2404059]]
+dPhi:[[0.00494891]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[602.24821495]]
+ERT max error:53.208431786785226
+ERT mean error:0.8042067687002635
+ERTphi_d:[[3380419.23052099]]  ERTphi_m:[[4296877.17262979]]  ERTphi_t:[[0.71141795]]
+dPhi:[[0.99833956]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[334.47327802]]
+ERT max error:43.66995144210306
+ERT mean error:0.5599441709241637
+ERTphi_d:[[1877398.5095419]]  ERTphi_m:[[729248.0313069]]  ERTphi_t:[[2.70509727]]
+dPhi:[[0.80058694]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[325.11018556]]
+ERT max error:42.38707085825982
+ERT mean error:0.5752347752564692
+ERTphi_d:[[1824843.47155142]]  ERTphi_m:[[689187.35270015]]  ERTphi_t:[[5.11514091]]
+dPhi:[[0.02879975]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[314.95684215]]
+ERT max error:46.66084430292283
+ERT mean error:0.5907296204835053
+ERTphi_d:[[1767852.755008]]  ERTphi_m:[[672303.81906883]]  ERTphi_t:[[8.72779889]]
+dPhi:[[0.03223725]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[304.98111768]]
+ERT max error:42.93571922435839
+ERT mean error:0.5851669573415342
+ERTphi_d:[[1711859.01353369]]  ERTphi_m:[[714644.99616703]]  ERTphi_t:[[21.18748335]]
+dPhi:[[0.03270932]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[304.30185879]]
+ERT max error:47.0134660856097
+ERT mean error:0.603971329367651
+ERTphi_d:[[1708046.33339938]]  ERTphi_m:[[679877.05390751]]  ERTphi_t:[[20.60486725]]
+dPhi:[[0.00223219]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[602.85051425]]
+ERT max error:701.7993059397105
+ERT mean error:0.9333444887886154
+ERTphi_d:[[3382594.23544507]]  ERTphi_m:[[4297673.01026143]]  ERTphi_t:[[2.86890682]]
+dPhi:[[0.99834121]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[334.89792981]]
+ERT max error:283.1749279301309
+ERT mean error:0.6146205638709441
+ERTphi_d:[[1879112.28414432]]  ERTphi_m:[[729998.30958601]]  ERTphi_t:[[9.51262772]]
+dPhi:[[0.80010224]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[325.72682164]]
+ERT max error:330.4259539847532
+ERT mean error:0.635725419712067
+ERTphi_d:[[1827653.19620431]]  ERTphi_m:[[692142.57322628]]  ERTphi_t:[[7.69118008]]
+dPhi:[[0.02815583]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[316.16234137]]
+ERT max error:345.86622297195106
+ERT mean error:0.6584983945624814
+ERTphi_d:[[1773986.89741638]]  ERTphi_m:[[673273.57135156]]  ERTphi_t:[[7.61390458]]
+dPhi:[[0.0302518]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[310.33917441]]
+ERT max error:313.994207222114
+ERT mean error:0.666953951548133
+ERTphi_d:[[1741313.10763621]]  ERTphi_m:[[711668.60422571]]  ERTphi_t:[[38.99465213]]
+dPhi:[[0.01876388]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[310.1531181]]
+ERT max error:314.3555519702946
+ERT mean error:0.6694136952749449
+ERTphi_d:[[1740269.145686]]  ERTphi_m:[[709543.52141781]]  ERTphi_t:[[38.7818214]]
+dPhi:[[0.00059989]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[603.34243839]]
+ERT max error:701.7993059397105
+ERT mean error:0.9443415367135107
+ERTphi_d:[[3383544.3945043]]  ERTphi_m:[[4302065.29548615]]  ERTphi_t:[[5.44301073]]
+dPhi:[[0.99834257]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[335.11978061]]
+ERT max error:283.3833122768221
+ERT mean error:0.6222375928757398
+ERTphi_d:[[1879351.72967353]]  ERTphi_m:[[730485.31709258]]  ERTphi_t:[[12.03708378]]
+dPhi:[[0.80037847]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[326.15862966]]
+ERT max error:328.55425745544244
+ERT mean error:0.6424954489070711
+ERTphi_d:[[1829097.59512056]]  ERTphi_m:[[693457.27852002]]  ERTphi_t:[[9.34271323]]
+dPhi:[[0.02747482]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[317.04801153]]
+ERT max error:347.41987147599497
+ERT mean error:0.6665552971249963
+ERTphi_d:[[1778005.24868672]]  ERTphi_m:[[674688.88275022]]  ERTphi_t:[[11.25959501]]
+dPhi:[[0.02873577]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[309.12653807]]
+ERT max error:317.87739587541074
+ERT mean error:0.6716056327578555
+ERTphi_d:[[1733581.62550784]]  ERTphi_m:[[715653.81620344]]  ERTphi_t:[[42.68973294]]
+dPhi:[[0.02562534]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[305.52155678]]
+ERT max error:334.1847005934654
+ERT mean error:0.7008392337572501
+ERTphi_d:[[1713364.89040926]]  ERTphi_m:[[677675.31031612]]  ERTphi_t:[[37.0330611]]
+dPhi:[[0.01179943]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[305.45554322]]
+ERT max error:334.4299697179181
+ERT mean error:0.7002359011875761
+ERTphi_d:[[1712994.68638506]]  ERTphi_m:[[677424.936824]]  ERTphi_t:[[36.86070682]]
+dPhi:[[0.00021612]]
+Opening /tmp/tmpudpklejw.poly.
+  Segments are connected properly.
+20/08/22 - 00:25:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 00:25:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 00:25:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 00:25:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 00:25:51 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 00:25:51 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 00:25:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 00:25:51 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 00:25:51 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 00:25:52 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 00:26:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 00:26:56 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 00:26:56 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 00:26:57 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 00:27:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 00:27:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 00:27:11 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 00:27:12 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp1u5265yx.poly.
+  Segments are connected properly.
+20/08/22 - 02:07:12 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 02:07:12 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 02:07:13 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 02:07:13 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 02:07:14 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 02:07:14 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 02:07:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 02:07:14 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 02:07:14 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 02:07:16 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 02:08:20 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 02:08:20 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 02:08:20 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 02:08:21 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 02:08:38 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 02:08:38 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 02:08:38 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 02:08:39 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpb5wp23ek.poly.
+  Segments are connected properly.
+20/08/22 - 03:23:26 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 03:23:26 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 03:23:27 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 03:23:27 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 03:23:28 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 03:23:28 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 03:23:29 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 03:23:29 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 03:23:29 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 03:23:30 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 03:24:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 03:24:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 03:24:30 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 03:24:31 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 03:24:46 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 03:24:46 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 03:24:46 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 03:24:47 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp_h_wax71.poly.
+  Segments are connected properly.
+20/08/22 - 05:12:14 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 05:12:14 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 05:12:15 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 05:12:15 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 05:12:16 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 05:12:16 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 05:12:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 05:12:17 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 05:12:17 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 05:12:18 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 05:13:15 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 05:13:15 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 05:13:15 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 05:13:16 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 05:13:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 05:13:31 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 05:13:31 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 05:13:32 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpfkp33ycl.poly.
+  Segments are connected properly.
+20/08/22 - 06:22:02 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 06:22:02 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 06:22:03 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 06:22:03 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 06:22:04 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 06:22:04 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 06:22:04 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 06:22:04 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 06:22:04 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 06:22:06 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 06:23:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 06:23:09 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 06:23:09 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 06:23:10 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 06:23:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 06:23:27 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 06:23:27 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 06:23:28 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp38bxf_yk.poly.
+  Segments are connected properly.
+20/08/22 - 07:35:32 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 07:35:32 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 07:35:33 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 07:35:33 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 07:35:34 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 07:35:34 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 07:35:35 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 07:35:35 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 07:35:35 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 07:35:36 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 07:36:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 07:36:24 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 07:36:24 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 07:36:25 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 07:36:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 07:36:41 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 07:36:41 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 07:36:42 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmp_rxbehn8.poly.
+  Segments are connected properly.
+20/08/22 - 09:01:59 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 09:01:59 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 09:02:00 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 09:02:00 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 09:02:01 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 09:02:01 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 09:02:02 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 09:02:02 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 09:02:02 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 09:02:03 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 09:03:02 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 09:03:02 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 09:03:02 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 09:03:03 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 09:03:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 09:03:18 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 09:03:18 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 09:03:19 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpmdjb5apt.poly.
+  Segments are connected properly.
+20/08/22 - 09:47:28 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 09:47:28 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 09:47:29 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 09:47:29 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 09:47:30 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 09:47:30 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 09:47:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 09:47:30 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 09:47:30 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 09:47:31 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 09:48:21 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 09:48:21 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 09:48:21 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 09:48:22 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 09:48:38 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 09:48:38 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 09:48:38 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 09:48:40 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpzvp1l90k.poly.
+  Segments are connected properly.
+20/08/22 - 10:31:49 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 10:31:49 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 10:31:50 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 10:31:50 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 10:31:51 - pyGIMLi - [0;32;49mINFO[0m - Found 2 regions.
+20/08/22 - 10:31:51 - pyGIMLi - [0;32;49mINFO[0m - Region with smallest marker (1) set to background
+20/08/22 - 10:31:52 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 10:31:52 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 10:31:52 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 10:31:53 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 10:32:55 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 10:32:55 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 10:32:55 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 10:32:57 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+20/08/22 - 10:33:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model transformation.
+20/08/22 - 10:33:11 - Core - [0;33;49mWARNING[0m - Region Nr: 1  is background and should not get a model control.
+20/08/22 - 10:33:11 - pyGIMLi - [0;32;49mINFO[0m - Creating forward mesh from region infos.
+20/08/22 - 10:33:12 - pyGIMLi - [0;32;49mINFO[0m - Creating refined mesh (H2) to solve forward task.
+Opening /tmp/tmpr__tcgk9.poly.
+  Segments are connected properly.
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[610.30398358]]
+ERT max error:701.7993059397105
+ERT mean error:0.9510538223372198
+ERTphi_d:[[3417702.30806177]]  ERTphi_m:[[4397979.45083398]]  ERTphi_t:[[2491.4014464]]
+dPhi:[[0.99836147]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[341.33934189]]
+ERT max error:284.82353333640026
+ERT mean error:0.6335746265289953
+ERTphi_d:[[1911500.31460193]]  ERTphi_m:[[739604.05927955]]  ERTphi_t:[[246.79692792]]
+dPhi:[[0.78796848]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[333.36299196]]
+ERT max error:306.0666561858805
+ERT mean error:0.6429571283270502
+ERTphi_d:[[1866832.75495344]]  ERTphi_m:[[712321.1872601]]  ERTphi_t:[[273.76833744]]
+dPhi:[[0.02392692]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[325.64893432]]
+ERT max error:320.0206940310733
+ERT mean error:0.6646915136616656
+ERTphi_d:[[1823634.03221163]]  ERTphi_m:[[694029.64880251]]  ERTphi_t:[[306.02176362]]
+dPhi:[[0.02368826]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[314.15537431]]
+ERT max error:321.399545635354
+ERT mean error:0.6512421643178621
+ERTphi_d:[[1759270.09615285]]  ERTphi_m:[[718610.12279717]]  ERTphi_t:[[291.94566795]]
+dPhi:[[0.03658559]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[313.81075573]]
+ERT max error:328.11555380461715
+ERT mean error:0.6646842011770887
+ERTphi_d:[[1757340.2321088]]  ERTphi_m:[[702839.15400085]]  ERTphi_t:[[277.80240274]]
+dPhi:[[0.00109817]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[618.6141204]]
+ERT max error:65.47017913614856
+ERT mean error:0.828419012433509
+ERTphi_d:[[3464857.68835361]]  ERTphi_m:[[4479156.20469574]]  ERTphi_t:[[2531.89343712]]
+dPhi:[[0.99838348]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[348.02741926]]
+ERT max error:50.75710573814869
+ERT mean error:0.5871039482488126
+ERTphi_d:[[1949301.57525217]]  ERTphi_m:[[751465.93651524]]  ERTphi_t:[[254.44667909]]
+dPhi:[[0.77748673]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[340.67248315]]
+ERT max error:53.54835246705559
+ERT mean error:0.5869954233061587
+ERTphi_d:[[1908106.57814086]]  ERTphi_m:[[737220.26942329]]  ERTphi_t:[[276.34294925]]
+dPhi:[[0.02158946]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[328.60388164]]
+ERT max error:50.887612980965024
+ERT mean error:0.6188626287424066
+ERTphi_d:[[1840510.34106917]]  ERTphi_m:[[704767.01082371]]  ERTphi_t:[[383.03400526]]
+dPhi:[[0.0367269]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[314.89288056]]
+ERT max error:50.69676531878084
+ERT mean error:0.6013307472962638
+ERTphi_d:[[1763715.02401742]]  ERTphi_m:[[717343.35594729]]  ERTphi_t:[[356.31759863]]
+dPhi:[[0.04354179]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[314.89290012]]
+ERT max error:50.69676380668404
+ERT mean error:0.6013307911934068
+ERTphi_d:[[1763715.13356089]]  ERTphi_m:[[717343.24619436]]  ERTphi_t:[[356.31739462]]
+dPhi:[[6.2109503e-08]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[627.42161344]]
+ERT max error:65.47017913614856
+ERT mean error:0.814223694874997
+ERTphi_d:[[3516070.72174078]]  ERTphi_m:[[4559130.67286337]]  ERTphi_t:[[44.91917651]]
+dPhi:[[0.99840618]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[353.84407429]]
+ERT max error:50.81798187309489
+ERT mean error:0.5764565663638678
+ERTphi_d:[[1982942.19230941]]  ERTphi_m:[[764161.63219758]]  ERTphi_t:[[26.93432597]]
+dPhi:[[0.77315846]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[343.15872127]]
+ERT max error:53.183719774077325
+ERT mean error:0.5778791228395758
+ERTphi_d:[[1923061.47398901]]  ERTphi_m:[[738925.623758]]  ERTphi_t:[[27.20520007]]
+dPhi:[[0.03113822]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[334.99888957]]
+ERT max error:46.88141324578587
+ERT mean error:0.6020685369888088
+ERTphi_d:[[1877333.7771648]]  ERTphi_m:[[718986.26848835]]  ERTphi_t:[[34.45019083]]
+dPhi:[[0.02435779]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[319.53351014]]
+ERT max error:50.37970916658994
+ERT mean error:0.5948463484945513
+ERTphi_d:[[1790665.79082377]]  ERTphi_m:[[736337.1668282]]  ERTphi_t:[[55.2391557]]
+dPhi:[[0.04839987]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[318.51332828]]
+ERT max error:50.01026171279508
+ERT mean error:0.6008134179894494
+ERTphi_d:[[1784948.69169812]]  ERTphi_m:[[726262.78242442]]  ERTphi_t:[[54.22954251]]
+dPhi:[[0.00320295]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[629.41251113]]
+ERT max error:65.47017913614856
+ERT mean error:0.7974592805942159
+ERTphi_d:[[3531004.18745818]]  ERTphi_m:[[4551465.48248113]]  ERTphi_t:[[2.97281073]]
+dPhi:[[0.99841122]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[355.26178982]]
+ERT max error:50.61855284026949
+ERT mean error:0.5609083341263269
+ERTphi_d:[[1993018.64087376]]  ERTphi_m:[[767707.70446268]]  ERTphi_t:[[8.23691113]]
+dPhi:[[0.77168648]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[344.44958676]]
+ERT max error:53.373183524195866
+ERT mean error:0.5629121301903464
+ERTphi_d:[[1932362.18170566]]  ERTphi_m:[[743587.95384561]]  ERTphi_t:[[10.56294032]]
+dPhi:[[0.0313898]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[337.01560805]]
+ERT max error:47.59955460308447
+ERT mean error:0.5857258243415674
+ERTphi_d:[[1890657.56115703]]  ERTphi_m:[[722955.83672241]]  ERTphi_t:[[28.77778214]]
+dPhi:[[0.02205826]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[332.2085787]]
+ERT max error:49.109310105473554
+ERT mean error:0.5785732101405754
+ERTphi_d:[[1863690.12648004]]  ERTphi_m:[[737684.94955194]]  ERTphi_t:[[87.27249989]]
+dPhi:[[0.01446991]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[329.01944793]]
+ERT max error:49.15314238058684
+ERT mean error:0.5843098829521312
+ERTphi_d:[[1845799.10289793]]  ERTphi_m:[[733273.96881054]]  ERTphi_t:[[42.54455786]]
+dPhi:[[0.00969283]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[633.09474984]]
+ERT max error:37.628474251917005
+ERT mean error:0.7879986003451498
+ERTphi_d:[[3547229.88333431]]  ERTphi_m:[[4587151.78618348]]  ERTphi_t:[[290.88724242]]
+dPhi:[[0.99842046]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[357.66055981]]
+ERT max error:31.541886897041746
+ERT mean error:0.5541031933171758
+ERTphi_d:[[2003972.11663916]]  ERTphi_m:[[770773.869021]]  ERTphi_t:[[47.11986277]]
+dPhi:[[0.77009942]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[346.85245548]]
+ERT max error:30.067633268777453
+ERT mean error:0.5545489680176006
+ERTphi_d:[[1943414.30807285]]  ERTphi_m:[[747510.3504554]]  ERTphi_t:[[54.57668876]]
+dPhi:[[0.03116052]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[338.96489213]]
+ERT max error:33.47486081723767
+ERT mean error:0.5748274582437268
+ERTphi_d:[[1899220.29060055]]  ERTphi_m:[[727381.76346151]]  ERTphi_t:[[62.83870159]]
+dPhi:[[0.02326956]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[328.85065697]]
+ERT max error:30.260635606523266
+ERT mean error:0.5694696788609124
+ERTphi_d:[[1842550.23099343]]  ERTphi_m:[[737950.55664396]]  ERTphi_t:[[116.09222808]]
+dPhi:[[0.03075632]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[327.07143963]]
+ERT max error:33.383584683052526
+ERT mean error:0.5923570650725828
+ERTphi_d:[[1832581.27621956]]  ERTphi_m:[[717733.4838167]]  ERTphi_t:[[136.34688365]]
+dPhi:[[0.00543984]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[635.96692653]]
+ERT max error:38.571660936430035
+ERT mean error:0.7900396383068512
+ERTphi_d:[[3558870.92084085]]  ERTphi_m:[[4615553.66950119]]  ERTphi_t:[[297.3198707]]
+dPhi:[[0.99842759]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[360.2142952]]
+ERT max error:32.57747842692222
+ERT mean error:0.5569328237533604
+ERTphi_d:[[2015759.19591985]]  ERTphi_m:[[773924.13669122]]  ERTphi_t:[[44.87862464]]
+dPhi:[[0.76552384]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[347.91741358]]
+ERT max error:30.737400221116324
+ERT mean error:0.5571852964265561
+ERTphi_d:[[1946945.84638971]]  ERTphi_m:[[746804.56652863]]  ERTphi_t:[[59.10540663]]
+dPhi:[[0.03534425]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[343.03954395]]
+ERT max error:34.49123824029083
+ERT mean error:0.5754610831272317
+ERTphi_d:[[1919649.28794755]]  ERTphi_m:[[733962.05001703]]  ERTphi_t:[[56.00137563]]
+dPhi:[[0.01421955]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[331.63682873]]
+ERT max error:37.705573049398204
+ERT mean error:0.6161110020622053
+ERTphi_d:[[1855839.69357979]]  ERTphi_m:[[742071.08651774]]  ERTphi_t:[[93.79101801]]
+dPhi:[[0.03438314]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[328.75854965]]
+ERT max error:39.72716194746171
+ERT mean error:0.6244093681892665
+ERTphi_d:[[1839732.84384618]]  ERTphi_m:[[707442.69087484]]  ERTphi_t:[[113.68268508]]
+dPhi:[[0.00875499]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[638.72137855]]
+ERT max error:38.571660936430035
+ERT mean error:0.7900685599143722
+ERTphi_d:[[3570452.50611184]]  ERTphi_m:[[4636838.03507594]]  ERTphi_t:[[14.6578937]]
+dPhi:[[0.99843437]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[362.37056444]]
+ERT max error:32.573119658775084
+ERT mean error:0.5576508772725685
+ERTphi_d:[[2025651.45523589]]  ERTphi_m:[[776842.46016506]]  ERTphi_t:[[10.41363222]]
+dPhi:[[0.76261938]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[349.68328307]]
+ERT max error:30.711120882961612
+ERT mean error:0.5564782298106256
+ERTphi_d:[[1954729.55234492]]  ERTphi_m:[[749953.67794116]]  ERTphi_t:[[11.79812793]]
+dPhi:[[0.03628221]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[344.56745512]]
+ERT max error:34.379732105305415
+ERT mean error:0.5732556908488984
+ERTphi_d:[[1926132.07412919]]  ERTphi_m:[[738216.08877943]]  ERTphi_t:[[13.25194179]]
+dPhi:[[0.0148471]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[333.74126065]]
+ERT max error:39.4312752461064
+ERT mean error:0.6270011916005896
+ERTphi_d:[[1865613.64700944]]  ERTphi_m:[[748096.04847432]]  ERTphi_t:[[27.82740279]]
+dPhi:[[0.03243889]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[330.40803659]]
+ERT max error:40.67844414243651
+ERT mean error:0.6328840272132845
+ERTphi_d:[[1846980.92455163]]  ERTphi_m:[[726392.39472573]]  ERTphi_t:[[56.99425225]]
+dPhi:[[0.01008821]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[325.80987454]]
+ERT max error:42.454966736807265
+ERT mean error:0.6433132943925823
+ERTphi_d:[[1821277.19869569]]  ERTphi_m:[[711106.20724317]]  ERTphi_t:[[159.03088208]]
+dPhi:[[0.01411302]]
+-------------------ERT Iteration:7---------------------------
+ERT chi2[[323.80205689]]
+ERT max error:43.68833768253714
+ERT mean error:0.6473316080790762
+ERTphi_d:[[1810053.49800415]]  ERTphi_m:[[712885.65108353]]  ERTphi_t:[[160.74390932]]
+dPhi:[[0.00620076]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[638.45676873]]
+ERT max error:38.571660936430035
+ERT mean error:0.7824600389532773
+ERTphi_d:[[3565781.05333629]]  ERTphi_m:[[4641136.56236933]]  ERTphi_t:[[66.19288915]]
+dPhi:[[0.99843372]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[362.42807125]]
+ERT max error:32.57627643948306
+ERT mean error:0.5500355811293829
+ERTphi_d:[[2024160.7779122]]  ERTphi_m:[[776418.65508216]]  ERTphi_t:[[11.60943682]]
+dPhi:[[0.7616096]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[348.85167142]]
+ERT max error:30.571303641531717
+ERT mean error:0.5498442894802014
+ERTphi_d:[[1948336.58490498]]  ERTphi_m:[[746368.21190141]]  ERTphi_t:[[12.12790503]]
+dPhi:[[0.0389174]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[341.48965479]]
+ERT max error:34.5886115481686
+ERT mean error:0.5700694427386237
+ERTphi_d:[[1907219.72201645]]  ERTphi_m:[[731231.9036695]]  ERTphi_t:[[14.41429346]]
+dPhi:[[0.02155853]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[328.40132435]]
+ERT max error:32.6457422360657
+ERT mean error:0.566644348612769
+ERTphi_d:[[1834121.39650623]]  ERTphi_m:[[753481.27755298]]  ERTphi_t:[[16.867128]]
+dPhi:[[0.03985468]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[325.17305045]]
+ERT max error:35.012167108808555
+ERT mean error:0.5726025536038875
+ERTphi_d:[[1816091.48674827]]  ERTphi_m:[[734822.03204466]]  ERTphi_t:[[17.47532288]]
+dPhi:[[0.00992786]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[639.22912403]]
+ERT max error:34.378629686227335
+ERT mean error:0.7718464747911642
+ERTphi_d:[[3569455.42859498]]  ERTphi_m:[[4642809.82543109]]  ERTphi_t:[[78.10076863]]
+dPhi:[[0.99843562]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[363.15018313]]
+ERT max error:28.982660764485633
+ERT mean error:0.5402564443125276
+ERTphi_d:[[2027830.62260536]]  ERTphi_m:[[777442.38589201]]  ERTphi_t:[[11.89571472]]
+dPhi:[[0.76023352]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[351.48210848]]
+ERT max error:27.496504355879203
+ERT mean error:0.5394173724522081
+ERTphi_d:[[1962676.09377122]]  ERTphi_m:[[753802.79163373]]  ERTphi_t:[[13.32159151]]
+dPhi:[[0.03319678]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[347.69569607]]
+ERT max error:30.275127973990646
+ERT mean error:0.5517431521816789
+ERTphi_d:[[1941532.76688081]]  ERTphi_m:[[744467.48250947]]  ERTphi_t:[[16.05992695]]
+dPhi:[[0.01089002]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[338.94280168]]
+ERT max error:31.081862537300577
+ERT mean error:0.5595293355087029
+ERTphi_d:[[1892656.60458079]]  ERTphi_m:[[741865.16417222]]  ERTphi_t:[[37.74273391]]
+dPhi:[[0.0258241]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[335.55715867]]
+ERT max error:33.36291367341629
+ERT mean error:0.577963145141203
+ERTphi_d:[[1873751.1739945]]  ERTphi_m:[[728208.85101987]]  ERTphi_t:[[52.2549381]]
+dPhi:[[0.01008962]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[329.29503121]]
+ERT max error:33.15499042450636
+ERT mean error:0.591364494639507
+ERTphi_d:[[1838783.45427343]]  ERTphi_m:[[744006.72202953]]  ERTphi_t:[[243.81178774]]
+dPhi:[[0.01901677]]
+################################################################################
+#                            Line search FAIL EXIT                             #
+################################################################################
+-------------------ERT Iteration:7---------------------------
+ERT chi2[[329.29511928]]
+ERT max error:33.15500558181855
+ERT mean error:0.5913665406703943
+ERTphi_d:[[1838783.94608667]]  ERTphi_m:[[744006.58430202]]  ERTphi_t:[[243.81083406]]
+dPhi:[[2.67466571e-07]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[640.35622002]]
+ERT max error:28.547759330214696
+ERT mean error:0.7664892184129113
+ERTphi_d:[[3575108.77639932]]  ERTphi_m:[[4654689.01680949]]  ERTphi_t:[[27.31003759]]
+dPhi:[[0.99843837]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[363.24251882]]
+ERT max error:24.12776934891426
+ERT mean error:0.5347943048918725
+ERTphi_d:[[2027982.98259409]]  ERTphi_m:[[777911.1730182]]  ERTphi_t:[[9.61679829]]
+dPhi:[[0.76288894]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[350.42094711]]
+ERT max error:22.80125187145154
+ERT mean error:0.5347525491042939
+ERTphi_d:[[1956400.1477069]]  ERTphi_m:[[749672.22591087]]  ERTphi_t:[[11.02913974]]
+dPhi:[[0.03658906]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[345.00606794]]
+ERT max error:25.648571636581007
+ERT mean error:0.5562650006067491
+ERTphi_d:[[1926168.87730618]]  ERTphi_m:[[734197.93970975]]  ERTphi_t:[[16.88870056]]
+dPhi:[[0.01569503]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[332.07479439]]
+ERT max error:24.74987329905391
+ERT mean error:0.558842320828671
+ERTphi_d:[[1853973.57708735]]  ERTphi_m:[[746496.4108149]]  ERTphi_t:[[21.63937752]]
+dPhi:[[0.03894085]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[331.2374408]]
+ERT max error:27.630873408867366
+ERT mean error:0.5826655154152253
+ERTphi_d:[[1849298.63200749]]  ERTphi_m:[[715671.1276875]]  ERTphi_t:[[37.89918868]]
+dPhi:[[0.00252796]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[641.53126169]]
+ERT max error:27.389845962559292
+ERT mean error:0.7648784282362944
+ERTphi_d:[[3583593.62778922]]  ERTphi_m:[[4655849.56931636]]  ERTphi_t:[[12.63737943]]
+dPhi:[[0.99844123]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[363.89802463]]
+ERT max error:23.165272644901414
+ERT mean error:0.532890858039043
+ERTphi_d:[[2032734.36557774]]  ERTphi_m:[[779592.60959178]]  ERTphi_t:[[4.32007603]]
+dPhi:[[0.76294241]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[350.70221434]]
+ERT max error:21.749402992302098
+ERT mean error:0.5333646178566033
+ERTphi_d:[[1959022.56930246]]  ERTphi_m:[[750689.26197117]]  ERTphi_t:[[5.41780825]]
+dPhi:[[0.03762682]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[345.25712802]]
+ERT max error:24.5170126348727
+ERT mean error:0.550425410542605
+ERTphi_d:[[1928606.31713835]]  ERTphi_m:[[737581.769881]]  ERTphi_t:[[8.88785635]]
+dPhi:[[0.0157711]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[332.13532268]]
+ERT max error:27.576341168415595
+ERT mean error:0.6009874954070842
+ERTphi_d:[[1855307.91250054]]  ERTphi_m:[[755178.53864355]]  ERTphi_t:[[24.86922204]]
+dPhi:[[0.03950741]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[329.5492859]]
+ERT max error:28.73201256998287
+ERT mean error:0.6045018812533024
+ERTphi_d:[[1840862.31103443]]  ERTphi_m:[[728259.57889987]]  ERTphi_t:[[31.27497322]]
+dPhi:[[0.00784719]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[641.50439585]]
+ERT max error:27.389845962559292
+ERT mean error:0.7619526121210465
+ERTphi_d:[[3586009.57280271]]  ERTphi_m:[[4675954.53793339]]  ERTphi_t:[[39.07224302]]
+dPhi:[[0.99844116]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[363.61206565]]
+ERT max error:23.15149829646491
+ERT mean error:0.5291936393624757
+ERTphi_d:[[2032591.44700034]]  ERTphi_m:[[779742.97291545]]  ERTphi_t:[[41.95260166]]
+dPhi:[[0.76425498]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[351.79721287]]
+ERT max error:21.788096352836707
+ERT mean error:0.5309080494383357
+ERTphi_d:[[1966546.41993909]]  ERTphi_m:[[753691.3424359]]  ERTphi_t:[[58.75750082]]
+dPhi:[[0.03358427]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[347.43077782]]
+ERT max error:24.304418779425426
+ERT mean error:0.5395885411972347
+ERTphi_d:[[1942138.0480194]]  ERTphi_m:[[744623.09914861]]  ERTphi_t:[[61.59846617]]
+dPhi:[[0.01256778]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[341.08415319]]
+ERT max error:24.156724974724263
+ERT mean error:0.5475231875093046
+ERTphi_d:[[1906660.41635498]]  ERTphi_m:[[746519.44198222]]  ERTphi_t:[[78.40738755]]
+dPhi:[[0.01860721]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[333.76993474]]
+ERT max error:26.159465556440654
+ERT mean error:0.5658846774910926
+ERTphi_d:[[1865773.93517427]]  ERTphi_m:[[722176.2194522]]  ERTphi_t:[[143.27894058]]
+dPhi:[[0.02191395]]
+-------------------ERT Iteration:6---------------------------
+ERT chi2[[333.06713293]]
+ERT max error:28.146778801165972
+ERT mean error:0.5958162489832574
+ERTphi_d:[[1861845.27309432]]  ERTphi_m:[[731065.94903137]]  ERTphi_t:[[680.81387491]]
+dPhi:[[0.00211009]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[642.82294649]]
+ERT max error:25.451043185816832
+ERT mean error:0.7556807019748892
+ERTphi_d:[[3594665.9167862]]  ERTphi_m:[[4709820.27045613]]  ERTphi_t:[[142.59625968]]
+dPhi:[[0.99844436]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[364.8184711]]
+ERT max error:21.523340923141127
+ERT mean error:0.5243028461124656
+ERTphi_d:[[2040064.89039383]]  ERTphi_m:[[782512.04975678]]  ERTphi_t:[[57.60739444]]
+dPhi:[[0.76203509]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[353.72062276]]
+ERT max error:20.29976975709176
+ERT mean error:0.5294191593542746
+ERTphi_d:[[1978005.72249124]]  ERTphi_m:[[756561.70142346]]  ERTphi_t:[[81.32410735]]
+dPhi:[[0.03137461]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[351.13616969]]
+ERT max error:22.322099125525405
+ERT mean error:0.5375617457663249
+ERTphi_d:[[1963553.4609152]]  ERTphi_m:[[753527.04008471]]  ERTphi_t:[[96.5642715]]
+dPhi:[[0.00736026]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[644.98460276]]
+ERT max error:21.000989339025097
+ERT mean error:0.7524850639087756
+ERTphi_d:[[3608688.85245836]]  ERTphi_m:[[4745563.40523672]]  ERTphi_t:[[115.62015395]]
+dPhi:[[0.99844958]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[366.51640179]]
+ERT max error:17.797240277637883
+ERT mean error:0.5219945957616046
+ERTphi_d:[[2050659.2680181]]  ERTphi_m:[[785827.52865077]]  ERTphi_t:[[23.88469422]]
+dPhi:[[0.75977009]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[354.0122722]]
+ERT max error:16.918124604817518
+ERT mean error:0.5261158381707967
+ERTphi_d:[[1980698.66296857]]  ERTphi_m:[[756834.45341593]]  ERTphi_t:[[31.41196307]]
+dPhi:[[0.03532118]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[350.57027957]]
+ERT max error:18.81788875122985
+ERT mean error:0.5359512928640757
+ERTphi_d:[[1961440.71420496]]  ERTphi_m:[[747525.31458376]]  ERTphi_t:[[48.59333268]]
+dPhi:[[0.00981827]]
+-------------------ERT Iteration:0---------------------------
+ERT chi2[[648.34931442]]
+ERT max error:18.125498915464124
+ERT mean error:0.7549575667708066
+ERTphi_d:[[3625569.36621068]]  ERTphi_m:[[4782008.42754891]]  ERTphi_t:[[47.55186899]]
+dPhi:[[0.99845762]]
+-------------------ERT Iteration:1---------------------------
+ERT chi2[[368.54698196]]
+ERT max error:14.094289940528588
+ERT mean error:0.5245758277229473
+ERTphi_d:[[2060914.72310636]]  ERTphi_m:[[788701.34667762]]  ERTphi_t:[[12.37096392]]
+dPhi:[[0.75920397]]
+-------------------ERT Iteration:2---------------------------
+ERT chi2[[352.2171822]]
+ERT max error:12.843339017789356
+ERT mean error:0.528450847128532
+ERTphi_d:[[1969598.48287685]]  ERTphi_m:[[750531.42168227]]  ERTphi_t:[[16.79066244]]
+dPhi:[[0.04636287]]
+-------------------ERT Iteration:3---------------------------
+ERT chi2[[345.52512845]]
+ERT max error:15.131070027940497
+ERT mean error:0.5503516951439891
+ERTphi_d:[[1932176.5183028]]  ERTphi_m:[[734516.8483147]]  ERTphi_t:[[25.52113724]]
+dPhi:[[0.01936778]]
+-------------------ERT Iteration:4---------------------------
+ERT chi2[[328.63720885]]
+ERT max error:15.817335658790853
+ERT mean error:0.548856824606946
+ERTphi_d:[[1837739.27188698]]  ERTphi_m:[[772255.6348717]]  ERTphi_t:[[66.9086135]]
+dPhi:[[0.05138773]]
+-------------------ERT Iteration:5---------------------------
+ERT chi2[[328.40943719]]
+ERT max error:16.19170695990559
+ERT mean error:0.5514948880507924
+ERTphi_d:[[1836465.57274372]]  ERTphi_m:[[760522.79121013]]  ERTphi_t:[[64.24782352]]
+dPhi:[[0.00069356]]

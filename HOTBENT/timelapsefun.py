@@ -2,8 +2,17 @@ from pygimli.physics import ert  # the module
 import numpy as np
 from scipy.linalg import block_diag
 import labinvesfun as inv2
+from scipy import sparse
 from scipy.sparse.linalg import lsqr
+from scipy.sparse.linalg import lsmr
+import pygimli.meshtools as mt
+import matplotlib.colors as mcolors
+from pygimli.physics import TravelTimeManager
+import matplotlib
 import pygimli as pg
+#matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+import os
 import gc
 
 
@@ -32,6 +41,7 @@ def timelapsefun(nnn,name,new_Data_arr):
 
 
 
+    # mt.createMesh
     ## Mesh up and set up inital model
     ert1 = ert.ERTManager(dataert)
     mesh = pg.load('inv_mul1.bms')
@@ -56,7 +66,7 @@ def timelapsefun(nnn,name,new_Data_arr):
     #rhomodel = np.median(rhos)*np.ones((mesh1.cellCount(),1))
     rhomodeltemp = []
     for i in range(size):
-        rhomodel = np.median(rhos[i])*np.ones((mesh.cellCount(),1))
+        rhomodel = np.median(rhos[i])*np.ones((fobert.paraDomain.cellCount(),1))
         #rhomodel[temp2==3] = 100
         #rhomodel[temp2==3] = 10000
         rhomodeltemp.append(rhomodel)
@@ -99,8 +109,8 @@ def timelapsefun(nnn,name,new_Data_arr):
     temp = Wm.dot(Noid)
     ttt = np.array(temp).reshape((-1,))
     
-    cw[abs(ttt) == 2] = 1 - np.exp(-0.1*nnn)
-    cw[abs(ttt) == 1] = 1 - np.exp(-0.1*nnn)
+    #cw[abs(ttt) == 2] = 1 - np.exp(-0.01*nnn)
+    cw[abs(ttt) == 1] = 1 - np.exp(-0.01*nnn)
       
     Wm = np.diag(cw).dot(Wm_r)
     del Wm_r, Wdert
@@ -152,8 +162,8 @@ def timelapsefun(nnn,name,new_Data_arr):
         return obs
 
 
-    L_mr = 5#5;
-    alpha = 1 #5
+    L_mr = 10#5;
+    alpha = 10
     mr = mr.reshape(mr.shape[0],1)
     delta_mr = (mr-mr_R)
     chi2_ert = 1
@@ -168,10 +178,8 @@ def timelapsefun(nnn,name,new_Data_arr):
     if t1>24:
         t1 = 24
 
-    
     if t2>24:
         t2 = 24
-
 
         
         
@@ -264,12 +272,26 @@ def timelapsefun(nnn,name,new_Data_arr):
         mr = mr1
         mr[mr > np.log(10000)] = np.log(10000)
         mr[mr < np.log(0.0001)] = np.log(0.0001)
+        
+        for kk in range(size):
+            mrtemp = mr[0+kk*int(len(mr)/size):int(len(mr)/size)+kk*int(len(mr)/size)].copy()
 
+            TTTemp = mrtemp[Noid==1].copy()
+            TTTemp[TTTemp>np.quantile(mrtemp[Noid==2],0.6 - (1-np.exp(-0.01*nnn) )*0.1)] = np.quantile(mrtemp[Noid==2],0.6 - (1-np.exp(-0.01*nnn))*0.1) #np.mean(mrtemp[Noid==1])
+            mrtemp[Noid==1] = TTTemp.copy()
+            
+            mr[0+kk*int(len(mr)/size):int(len(mr)/size)+kk*int(len(mr)/size)] = mrtemp.copy()
+        # if L_mr > 5:
+        #     L_mr = L_mr*0.7
 
         delta_mr = (mr-mr_R)
 
 
+    c = 1
+
     ttt = np.reshape(mr,(-1,size),order='F')
+
+    c = 1
 
 
     mesh2 = pg.load('inv_mulbnd1.bms')
