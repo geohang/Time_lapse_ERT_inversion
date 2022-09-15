@@ -37,7 +37,7 @@ def forward(fobert1, mr, size):
 
 #### This function is mainly for the window time lapse ERT inversion
 
-def timelapsefun(nnn,name,new_Data_arr,size):
+def timelapsefun(nnn,name,new_Data_arr,size,Lambda,alpha,decay_rate):
     #size = 3
 
     rhos = []
@@ -102,7 +102,12 @@ def timelapsefun(nnn,name,new_Data_arr,size):
     from scipy.sparse import coo_matrix#, block_diag
     #---------------------data weight------------------------------------#
     dataerr = np.array(dataerr)
-    Delta_rhoa_rhoa = np.hstack((dataerr[0],dataerr[1],dataerr[2]))
+
+    err_temp = dataerr[0]
+    for i in range(size-1):
+        err_temp = np.hstack((err_temp,dataerr[i+1]))
+
+    Delta_rhoa_rhoa = err_temp
     Wdert = np.diag(1.0 / np.log(Delta_rhoa_rhoa + 1))
     Wd = Wdert
 
@@ -117,21 +122,22 @@ def timelapsefun(nnn,name,new_Data_arr,size):
     Wm_r = Wm_r.todense()
 
     cw = rm.constraintWeights().array()
-    Wm = Wm_r.copy()
-    
+    #Wm = Wm_r.copy()
 
-    
-    temp = Wm.dot(Noid)
+    temp = Wm_r.dot(Noid)
     ttt = np.array(temp).reshape((-1,))
 
     cw[abs(ttt) == 1] = 1 - np.exp(-0.1*nnn)
       
-    Wm = np.diag(cw).dot(Wm_r)
-    del Wm_r, Wdert
+    Wm_r = np.diag(cw).dot(Wm_r)
+
     gc.collect()
 
-    Wm = block_diag(Wm,Wm,Wm)
+    Wm = Wm_r.copy()
+    for i in range(size-1):
+        Wm = block_diag(Wm,Wm_r)
 
+    del Wm_r, Wdert
     # ------------------------time space weighting matrix--------------------- #
     Wt = np.zeros((int(len(mr)*(size-1)/size),len(mr)))
 
@@ -144,8 +150,8 @@ def timelapsefun(nnn,name,new_Data_arr,size):
 
 
 
-    L_mr = 5#5;
-    alpha = 1 #5
+    L_mr = Lambda
+    alpha = alpha#1 #5
     mr = mr.reshape(mr.shape[0],1)
     chi2_ert = 1
 
@@ -153,9 +159,10 @@ def timelapsefun(nnn,name,new_Data_arr,size):
 
     tdiff = np.diff(new_Data_arr[nnn:nnn+size]) # the time difference between ERT data
 
-    w_temp = np.ones(int(len(mr)*1/size))*alpha*np.exp(-0.01*tdiff[0].data[0]/60)
+    w_temp = np.ones(int(len(mr)*1/size))*alpha*np.exp(decay_rate*tdiff[0].data[0]/60)
+
     for i in range(size-2):
-        w_temp = np.hstack((w_temp,np.ones(int(len(mr)*1/size))*alpha*np.exp(-0.01*tdiff[i+1].data[0]/60)))
+        w_temp = np.hstack((w_temp,np.ones(int(len(mr)*1/size))*alpha*np.exp(decay_rate*tdiff[i+1].data[0]/60)))
 
 
     coeff = w_temp
