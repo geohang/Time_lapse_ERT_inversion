@@ -85,6 +85,7 @@ def srtforward2(fob,sm):
     return dr
 
 
+
 def chi2return(L_m,w1,w2,Wm_r,Cd,J,L_cg,B,d,delta_m,mr_R,mv_R,fobert,fobsrt,mesh, rhos1,Wdert,dobs_s,Wdsrt,t):
 
     Cm = np.vstack((np.hstack((L_m *Wm_r,np.zeros((Wm_r.shape[0],Wm_r.shape[1]))))
@@ -112,6 +113,8 @@ def chi2return(L_m,w1,w2,Wm_r,Cd,J,L_cg,B,d,delta_m,mr_R,mv_R,fobert,fobsrt,mesh
     fdsrt = (np.dot(Wdsrt, dataerror_srt)).T.dot(np.dot(Wdsrt, dataerror_srt))
     chi2_srt = fdsrt/len(dt)
     return chi2_ert+chi2_srt
+
+
 
 def crossgrad(RCM,X,mr,mr_R,mv,mv_R):
     B1 = np.zeros((RCM.shape))
