@@ -163,9 +163,9 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
     
     tdiff = np.diff(new_Data_arr[nnn:nnn+size]) # the time difference between ERT data
 
-    w_temp = np.ones(int(len(mr)*1/size))*alpha*np.exp(decay_rate*tdiff[0].data[0]/60)
+    w_temp = np.ones(int(len(mr)*1/size))*alpha*np.exp(decay_rate*tdiff[0])
     for i in range(size-2):
-        w_temp = np.hstack((w_temp,np.ones(int(len(mr)*1/size))*alpha*np.exp(decay_rate*tdiff[i+1].data[0]/60)))
+        w_temp = np.hstack((w_temp,np.ones(int(len(mr)*1/size))*alpha*np.exp(decay_rate*tdiff[i+1])))
 
     beta = 1 # in case to help inversion converge to a satisfied vaule, otherwise, keep 1
     coeff = w_temp
