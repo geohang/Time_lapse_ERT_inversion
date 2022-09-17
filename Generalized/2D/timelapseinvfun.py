@@ -114,7 +114,7 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
     for i in range(size-1):
         err_temp = np.hstack((err_temp,dataerr[i+1]))
 
-    Delta_rhoa_rhoa = err_temp
+    Delta_rhoa_rhoa = 0.03*np.ones(err_temp.shape) #here is a test, in true case using the data error, err_temp #err_temp
     Wdert = np.diag(1.0 / np.log(Delta_rhoa_rhoa + 1))
     Wd = Wdert.copy()
     del Wdert
