@@ -12,7 +12,7 @@ Nums_cpu = 3 # the number of used cpu
 Lambda = 10 # the regularization parameter for the model smooth parameter
 alpha = 2 # the regularization parameter for the time space smooth parameter
 decay_rate = -0.01 # the decay rate for the non-uniform time space
-widsize = 5 # the window size for window time lapse inversion
+widsize = 3 # the window size for window time lapse inversion
 
 ######################################################################################
 # The below part is for ERT file name organized

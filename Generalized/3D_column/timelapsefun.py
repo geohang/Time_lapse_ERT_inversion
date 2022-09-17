@@ -18,9 +18,11 @@ def Jac(fobert1, mr, size):
             JJ = Jr
         else:
             JJ = block_diag(JJ,Jr)
-
-    obs = np.vstack((obs[0].reshape(-1,1),obs[1].reshape(-1,1),obs[2].reshape(-1,1)))
-    return obs, JJ
+    obs = np.array(obs)
+    obs1 = obs[0]
+    for i in range(size-1):
+        obs1 = np.hstack((obs1,obs[i+1]))
+    return obs1, JJ
 
 ###### For Forward modeling response organization
 def forward(fobert1, mr, size):
@@ -32,8 +34,10 @@ def forward(fobert1, mr, size):
         dr = inv2.ertforward2(fobert1[i], ttt[:,i])
         obs.append(dr)
 
-    obs = np.vstack((obs[0].reshape(-1,1),obs[1].reshape(-1,1),obs[2].reshape(-1,1)))
-    return obs
+    obs1 = obs[0].reshape(-1,1)
+    for i in range(size-1):
+        obs1 = np.vstack((obs1,obs[i+1].reshape(-1,1)))
+    return obs1
 
 #### This function is mainly for the window time lapse ERT inversion
 
@@ -168,7 +172,7 @@ def timelapsefun(nnn,name,new_Data_arr,size,Lambda,alpha,decay_rate):
     coeff = w_temp
 
 
-    Wt = coeff.dot(Wt)
+    Wt = np.diagflat(coeff).dot(Wt)
     WWd = Wd.T.dot(Wd)
 
     WWm = (L_mr*Wm).T.dot(L_mr*Wm)
@@ -231,7 +235,7 @@ def timelapsefun(nnn,name,new_Data_arr,size,Lambda,alpha,decay_rate):
             fmert = (L_mr*Wm.dot(mr1)).T.dot(L_mr*Wm.dot(mr1))
             ftert = (Wt.dot(mr1)).T.dot(Wt.dot(mr1))
 
-            ft_r = fdert + fmert+ ftert
+            ft_r = fdert + fmert + ftert
 
             fgoal = fc_r - 1e-4*mu_LS*(d_mr.T.dot(gc_r1.reshape(gc_r1.shape[0],1)))
 

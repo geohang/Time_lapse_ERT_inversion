@@ -5,7 +5,6 @@ from scipy.linalg import block_diag
 import invesfun as inv2
 from scipy.sparse.linalg import lsqr
 import pygimli.meshtools as mt
-import meshop
 import gc
 
 def Jac(fobert1, mr, mesh,size):
@@ -53,7 +52,7 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
     dataerr = []
 
     for i in range(size):
-        f = './two/'+ertfile[nnn+i]
+        f = ertfile[nnn+i]
         dataert = ert.load(f)
         rhos.append(dataert['rhoa'].array())
         dataert1.append(dataert)
@@ -72,24 +71,12 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
 
 
     ## Mesh up and set up inital model
-    ert1 = ert.ERTManager(dataert)
 
     ## load mesh and get the orignal marker value
-    mesh = pg.load('inv2.bms')
+    mesh = pg.load('inv.bms')
 
-    ## got mesh markers to do the structure constrain and inital model
-    temp = np.array(mesh.cellMarkers())
-    temp = temp[temp!=1]
 
-    # set up new marker that only includes 1 and 2 which means the background and inversion domain
-    TTT = np.array(mesh.cellMarkers())
-    TTT1 = TTT[TTT!=1]
-    TTT1[TTT1!=2] =2
-    TTT[TTT!=1] = TTT1
-    mesh.setCellMarkers(TTT)
 
-    del TTT, TTT1
-    
     fobert1= []
     ## forward operator
     for i in range(size):
@@ -101,15 +88,13 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
 
 
     # initial model, here I try to give borehore and background big resistivity
-    temp2 = temp.copy()
     rhomodeltemp = []
     for i in range(size):
         rhomodel = np.median(rhos[i])*np.ones((fobert.paraDomain.cellCount(),1))
-        rhomodel[temp2!=3] = 10000
         rhomodeltemp.append(rhomodel)
 
 
-    xr1 = np.log(np.reshape(np.array(rhomodeltemp),(len(temp)*size,1)))
+    xr1 = np.log(np.reshape(np.array(rhomodeltemp),(fobert.paraDomain.cellCount()*size,1)))
     
     del rhomodeltemp
     
@@ -149,11 +134,6 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
     cw = rm.constraintWeights().array()
 
     ### just adding structure information here, you can ignore it and delete in your own code
-    Noid = temp2.copy()
-    Noid[Noid == 2] = 3
-    temp = Wm_r.dot(Noid)
-    ttt = np.array(temp).reshape((-1,))
-    cw[abs(ttt) != 0] = 0
 
     Wm_r = diags(cw).dot(Wm_r)
 
@@ -283,8 +263,7 @@ def timelapsefun(nnn,ertfile,new_Data_arr,size,Lambda,alpha,decay_rate):
 
     ################## do the interpolation and save the results################
     ttt = np.reshape(mr,(-1,size),order='F')
-    pcl2 = mt.readSTL('interp.stl', binary=False)
-    mesh2 = mt.createMesh(pcl2,area=0.0005)
+    mesh2 = pg.load('inv.bms')
     name = ertfile
     import meshop
     if nnn == 0:

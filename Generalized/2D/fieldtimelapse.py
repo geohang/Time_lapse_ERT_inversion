@@ -5,8 +5,6 @@ from joblib import Parallel, delayed
 import matplotlib
 matplotlib.use('TkAgg')
 
-import os
-files = os.listdir('./two')
 
 para_flag = 0 # flag for parallel computing
 Nums_cpu = 3 # the number of used cpu
@@ -22,17 +20,14 @@ widsize = 3 # the window size for window time lapse inversion
 
 ertfile = []
 Data_arr = []
-for i in range(len(files)):
-    if files[i][-3:] == 'dat':
-        ertfile.append(files[i])
-        time = files[i][-17:-13] +'-'+ files[i][-13:-11] + '-' + files[i][-11:-9] + 'T' + files[i][-8:-6] + ':' + files[i][-6:-4]
-        Data_arr.append(np.datetime64(time))
+for i in range(10):
+        ertfile.append("Tert"+str(i+1))
+        Data_arr.append(i)
         
 index = np.argsort(Data_arr)
 new_Date_arr = np.sort(Data_arr)
 ertfile = np.array(ertfile)
 new_ertfile = ertfile[index]
-
 
 ###########################################################################################
 
