@@ -21,11 +21,11 @@ The file directory:
 
 ### Explanation to the inversion parameters
 
-para_flag = 0: 
+**para_flag** = 0: 
  
 flag for parallel computing, 1 for the parallel computing, 0 for not
 
-Nums_cpu = 3:
+**Nums_cpu** = 3:
 
 The number of used cpu, be careful about you service memory when you use a large number of cpu
 
@@ -36,19 +36,19 @@ During the inversion, I use the objective function as below
 
 Therefore, compared with the parameters in Pygimili, you should consider Lambda_here = sqrt(Lambda_Pygimili)
 
-Lambda = 5
+**Lambda** = 5
 
 the regularization parameter for the model smooth parameter
 
-alpha = 2 
+**alpha** = 2 
 
 the regularization parameter for the time space smooth parameter
 
-decay_rate = -0.01 
+**decay_rate** = -0.01 
 
 The decay rate for the non-uniform time space. The parameter should be negative as figure shows
 ![decay_rate](image.png)
 
-widsize = 3
+**widsize** = 3
 
 the window size for window time lapse inversion
