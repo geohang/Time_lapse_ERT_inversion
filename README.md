@@ -34,7 +34,7 @@ During the inversion, I use the objective function as below
 
 ![eqn](c.jpg)
 
-Therefore, compared with the parameters in Pygimili, you should consider Lambda_here = sqrt(Lambda_Pygimili). Same for the alpha, the magnitude you may add a sqrt to make it more intuitive.
+Therefore, compared with the parameters in Pygimili, you should consider Lambda_here = sqrt(Lambda_Pygimili). Same for the alpha, the magnitude you may add a sqrt to make it more intuitive,e.g., Lambda = np.sqrt(20), alpha = np.sqrt(5)
 
 **Lambda** = 5
 
