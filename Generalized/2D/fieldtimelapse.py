@@ -8,9 +8,9 @@ matplotlib.use('TkAgg')
 
 para_flag = 0 # flag for parallel computing
 Nums_cpu = 3 # the number of used cpu
-Lambda = 10 # the regularization parameter for the model smooth parameter
+Lambda = 5 # the regularization parameter for the model smooth parameter
 alpha = 2 # the regularization parameter for the time space smooth parameter
-decay_rate = 0.01 # the decay rate for the non-uniform time space
+decay_rate = -0.01 # the decay rate for the non-uniform time space
 widsize = 3 # the window size for window time lapse inversion
 
 ######################################################################################
