@@ -2,13 +2,13 @@ import numpy as np
 import timelapseinvfun
 import gc
 from joblib import Parallel, delayed
-import matplotlib
-matplotlib.use('TkAgg')
+#import matplotlib
+#matplotlib.use('TkAgg')
 
 import os
 files = os.listdir('./two')
 
-para_flag = 0 # flag for parallel computing
+para_flag = 1 # flag for parallel computing
 Nums_cpu = 3 # the number of used cpu
 Lambda = 10 # the regularization parameter for the model smooth parameter
 alpha = 2 # the regularization parameter for the time space smooth parameter
@@ -33,7 +33,10 @@ new_Date_arr = np.sort(Data_arr)
 ertfile = np.array(ertfile)
 new_ertfile = ertfile[index]
 
-
+index = np.argsort(Data_arr)
+new_Date_arr = np.sort(Data_arr)
+ertfile = np.array(ertfile)
+new_ertfile = ertfile[index]
 ###########################################################################################
 
 name = new_ertfile  # the file name array for ERT data file in right time order
@@ -43,6 +46,7 @@ Date = new_Date_arr # the time array for corresponding ERT data file, in np.date
 def f(nnn):
     timelapseinvfun.timelapsefun(nnn,name,Date,size=widsize,Lambda=Lambda,alpha=alpha,decay_rate=decay_rate)
     gc.collect()
+
 
 
 
