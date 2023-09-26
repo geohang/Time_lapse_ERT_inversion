@@ -52,3 +52,6 @@ The decay rate for the non-uniform time space. The parameter should be negative 
 **widsize** = 3
 
 the window size for window time lapse inversion
+
+## To cite
+Hang Chen. (2023). Time-lapse inversion codes (1.0). Zenodo. https://doi.org/10.5281/zenodo.8381022
